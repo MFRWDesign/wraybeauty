@@ -4,18 +4,69 @@
 <!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
 <!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
     <head>
-        <meta charset="utf-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <title>wraybeauty github com raw</title>
-        <meta name="description" content="">
-        <meta name="viewport" content="width=device-width">
-        <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+        <title><%= @site.config[:company] %> - <%= @item[:title] %></title>
+
+
+        <!-- ************************************************** -->
+        <!-- Meta Tags etc -->
+        <!-- ************************************************** -->
+        <meta charset="utf-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta name="author" content="<%= @site.config[:author] %>" />
+        <meta name="description" content="<%= @item[:description] %>" />
+        <meta name="keywords" content="<%= @item[:keywords] %>" />
+        <meta name="HandheldFriendly" content="True" />
+        <meta name="MobileOptimized" content="320" />
+        <meta name="distribution" content="global" />
+        <meta name="robots" content="index,follow" />
+        <meta name="publisher" content="Published by <%= @site.config[:author] %>" />
+        <meta http-equiv="cleartype" content="on" />
+        <!-- TODO: Change href in below rss xml link to correct URL -->
+        <link rel="alternate" type="application/rss+xml" title="<%= @site.config[:company] %> RSS feed" href="<%= @site.config[:rssurl] %>" />
+
+
+        <!-- ************************************************** -->
+        <!-- Stylesheets -->
+        <!-- ************************************************** -->
+
         <!-- build:css(.tmp) styles/main.css -->
-        <link rel="stylesheet" href="styles/main.css">
+        <link rel="stylesheet" type="text/css" href="styles/main.css" />
         <!-- endbuild -->
+
+
+        <!-- ************************************************** -->
+        <!-- JavaScript -->
+        <!-- ************************************************** -->
+
         <!-- build:js scripts/vendor/modernizr.js -->
         <script src="bower_components/modernizr/modernizr.js"></script>
         <!-- endbuild -->
+
+        <!-- TODO: Add in selectivizr or similar to support IE7&8 -->
+
+
+        <!-- ************************************************** -->
+        <!-- Icons -->
+        <!-- ************************************************** -->
+
+        <!-- TODO: Place favicon.ico and apple-touch-icon.png in the root directory -->
+        <!-- 16x16 -->
+        <link rel="shortcut icon" href="<%= @item[:level] %>favicon.ico">
+        <!-- 32x32 -->
+        <!-- <link rel="shortcut icon" href="<%= @item[:level] %>images/favicon.png"> -->
+
+        <!-- iOS apple-touch-icons -->
+        <!-- <link rel="apple-touch-icon-precomposed" sizes="144x144" href="<%= @item[:level] %>images/touch/apple-touch-icon-144x144-precomposed.png"> -->
+        <!-- <link rel="apple-touch-icon-precomposed" sizes="114x114" href="<%= @item[:level] %>images/touch/apple-touch-icon-114x114-precomposed.png"> -->
+        <!-- <link rel="apple-touch-icon-precomposed" sizes="72x72" href="<%= @item[:level] %>images/touch/apple-touch-icon-72x72-precomposed.png"> -->
+        <!-- <link rel="apple-touch-icon-precomposed" href="<%= @item[:level] %>images/touch/apple-touch-icon-57x57-precomposed.png"> -->
+        <!-- <link rel="shortcut icon" href="<%= @item[:level] %>images/touch/apple-touch-icon.png"> -->
+
+        <!-- Tile icon for Win8 (144x144 + tile color) -->
+        <!-- <meta name="msapplication-TileImage" content="<%= @item[:level] %>images/touch/apple-touch-icon-144x144-precomposed.png"> -->
+        <!-- <meta name="msapplication-TileColor" content="#010075"> -->
     </head>
     <body>
         <!--[if lt IE 10]>

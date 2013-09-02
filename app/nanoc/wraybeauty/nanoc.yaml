@@ -75,3 +75,27 @@ watcher:
   # When to send notifications (using Growl or notify-send).
   notify_on_compilation_success: true
   notify_on_compilation_failure: true
+
+company: 'WrayBeauty'
+author: 'MFRWDesign'
+phone: '+1-888-887-3334'
+phonelink: '+18888873334'
+city: 'Jersey City, NJ'
+country: 'United States'
+email: 'info@wraybeauty.com'
+twitter: 'wraybeauty'
+rssurl: 'http://wraybeauty.com/index.xml'
+slogan: 'MAKEUP ARTIST'
+message: 'Perfect Every Time.'
+
+sec1: 'Products'
+sec1url: 'products'
+sec2: 'Technology'
+sec2url: 'technology'
+sec3: 'Rest Easy'
+sec3url: 'rest-easy'
+sec4: 'Company'
+sec4url: 'company'
+sec5: 'Testimonials'
+sec5url: 'testimonials'
+# head meta data
