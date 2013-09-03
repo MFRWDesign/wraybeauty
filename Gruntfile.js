@@ -49,6 +49,7 @@ module.exports = function (grunt) {
                 },
                 files: [
                     '<%= yeoman.app %>/*.html',
+                    '<%= yeoman.app %>/**/*.html',
                     '.tmp/styles/{,*/}*.css',
                     '{.tmp,<%= yeoman.app %>}/scripts/{,*/}*.js',
                     '<%= yeoman.app %>/images/{,*/}*.{png,jpg,jpeg,gif,webp,svg}'
@@ -221,13 +222,19 @@ module.exports = function (grunt) {
             options: {
                 dest: '<%= yeoman.dist %>'
             },
-            html: '<%= yeoman.app %>/index.html'
+            html: [
+                '<%= yeoman.app %>/index.html',
+                '<%= yeoman.app %>/*/*.html'
+            ]
         },
         usemin: {
             options: {
                 dirs: ['<%= yeoman.dist %>']
             },
-            html: ['<%= yeoman.dist %>/{,*/}*.html'],
+            html: [
+                '<%= yeoman.dist %>/{,*/}*.html',
+                '<%= yeoman.dist %>/*/{,*/}*.html'
+            ],
             css: ['<%= yeoman.dist %>/styles/{,*/}*.css']
         },
         imagemin: {
@@ -282,7 +289,10 @@ module.exports = function (grunt) {
                 files: [{
                     expand: true,
                     cwd: '<%= yeoman.app %>',
-                    src: '*.html',
+                    src: [
+                        '*.html',
+                        '*/*.html'
+                    ],
                     dest: '<%= yeoman.dist %>'
                 }]
             }
