@@ -1,4 +1,20 @@
 $icon-font-path: "/bower_components/sass-bootstrap/fonts/";
+$custom-font-path: "fonts/";
+
+// Import the fonts
+@font-face {
+  font-family: 'Avant Garde';
+  src: url('#{$custom-font-path}itcavantgardestd-bk-webfont.eot');
+  src: url('#{$custom-font-path}itcavantgardestd-bk-webfont.eot?#iefix') format('embedded-opentype'),
+       url('#{$custom-font-path}itcavantgardestd-bk-webfont.woff') format('woff'),
+       url('#{$custom-font-path}itcavantgardestd-bk-webfont.ttf') format('truetype'),
+       url('#{$custom-font-path}itcavantgardestd-bk-webfont.svg') format('svg');
+}
+
+$brand-primary:         #d83552;
+
+$font-family-sans-serif:  'Avant Garde', "Univers", "Helvetica Neue", Helvetica, Arial, sans-serif;
+$font-family-serif:       "Century School Book", Georgia, "Times New Roman", Times, serif;
 
 @import 'sass-bootstrap/lib/bootstrap';
 
@@ -11,8 +27,8 @@ $icon-font-path: "/bower_components/sass-bootstrap/fonts/";
 
 /* Space out content a bit */
 body {
-    padding-top: 20px;
-    padding-bottom: 20px;
+    padding-top: 70px;
+    padding-bottom: 70px;
 }
 
 /* Everything but the jumbotron gets side spacing for mobile first views */
@@ -70,7 +86,7 @@ body {
 /* Responsive: Portrait tablets and up */
 @media screen and (min-width: 768px) {
     .container {
-        max-width: 730px;
+        max-width: 735px;
     }
 
     /* Remove the padding we set earlier */
@@ -89,3 +105,14 @@ body {
         border-bottom: 0;
     }
 }
+
+.no-top-margin {
+    margin-top: 0;
+}
+.add-bottom-padding {
+    padding-bottom: 20px;
+}
+
+// .navbar-fixed-top {
+//   max-width: 1024px;
+// }

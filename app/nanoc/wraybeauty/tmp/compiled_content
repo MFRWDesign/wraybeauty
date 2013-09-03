@@ -1,4 +1,5 @@
-{:	data{I"/:ET{:default{	:	lastI"<!doctype html>
+{:	data{
+I"/:ET{:default{	:	lastI"�<!doctype html>
 <!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
 <!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
 <!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
@@ -15,7 +16,7 @@
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <meta name="author" content="MFRWDesign" />
-        <meta name="description" content="WrayBeauty: You makeup will be perfect every time. Professional, beautiful, successful. Weddings, parties, private events. Find out what makes us different and better than the rest." />
+        <meta name="description" content="WrayBeauty: Your makeup will be perfect every time. Professional, beautiful, successful. Weddings, parties, private events. Find out what makes us different and better than the rest." />
         <meta name="keywords" content="makeup artist, makeup, wedding makeup, wedding, professional makeup artist, cosmetologist, cosmetology, nina, nina wray, wray, wraybeauty, wray beauty, beauty" />
         <meta name="HandheldFriendly" content="True" />
         <meta name="MobileOptimized" content="320" />
@@ -69,30 +70,60 @@
         <!-- <meta name="msapplication-TileColor" content="#010075"> -->
     </head>
     <body>
+
+        <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
+          <div class="container">
+          <!-- Brand and toggle get grouped for better mobile display -->
+          <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
+              <span class="sr-only">Menu</span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="/">WrayBeauty</a>
+          </div>
+          <!-- Collect the nav links, forms, and other content for toggling -->
+          <div class="collapse navbar-collapse navbar-ex1-collapse">
+            <ul class="nav navbar-nav navbar-right">
+              <li><a href="#" class="active" title="You're here.">Home</a></li>
+              <li><a href="/wedding-makeup/">Wedding</a></li>
+              <li><a href="/headshots-makeup/">Headshots</a></li>
+              <li><a href="/other-services-makeup/">Other Services</a></li>
+              <li><a href="/the-complete-package-makeup/">The Complete Package</a></li>
+            </ul>
+          </div><!-- /.navbar-collapse -->
+          </div>
+        </nav>
+
+
         <!--[if lt IE 10]>
             <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
         <![endif]-->
 
 
         <div class="container">
-  <div class="jumbotron">
+          <div class="row">
+  <div class="col-xs-12">
     <img class="img-responsive" src="images/comingsoon.jpg" alt="WrayBeauty.com Coming Soon" />
   </div>
-
-  <div class="footer">
-    <h3>Contact</h3>
-    <p class="vcard">
-      <span class="email">
-        <a href="mailto:info@wraybeauty.com?subject=Hello There">info@wraybeauty.com</a>
-      </span>
-      <span class="tel"><a href="tel:+18888873334">+1-888-887-3334</a></span>
-      <span class="adr">
-        <span class="locality">Jersey City, NJ</span>, <span class="country-name">United States</span>
-      </span>
-    </p>
-  </div>
 </div>
+        </div>
 
+        <div class="container">
+          <div class="footer">
+            <h3 id="contact">Contact</h3>
+            <p class="vcard">
+              <span class="email">
+                <a href="mailto:info@wraybeauty.com?subject=Hello There">info@wraybeauty.com</a>
+              </span>
+              <!-- <span class="tel"><a href="tel:+18888873334">+1-888-887-3334</a></span> -->
+              <span class="adr">
+                <span class="locality">Jersey City, NJ</span>, <span class="country-name">United States</span>
+              </span>
+            </p>
+          </div>
+        </div>
 
         <!-- build:js scripts/vendor.js -->
         <!-- bower:js -->
@@ -134,39 +165,1115 @@
         <!-- endbuild -->
 </body>
 </html>
-;T:rawI"�<div class="container">
-  <div class="jumbotron">
+;T:rawI"�<div class="row">
+  <div class="col-xs-12">
     <img class="img-responsive" src="images/comingsoon.jpg" alt="WrayBeauty.com Coming Soon" />
   </div>
-
-  <div class="footer">
-    <h3>Contact</h3>
-    <p class="vcard">
-      <span class="email">
-        <a href="mailto:<%= @site.config[:email] %>?subject=Hello There"><%= @site.config[:email] %></a>
-      </span>
-      <span class="tel"><a href="tel:<%= @site.config[:phonelink] %>"><%= @site.config[:phone] %></a></span>
-      <span class="adr">
-        <span class="locality"><%= @site.config[:city] %></span>, <span class="country-name"><%= @site.config[:country] %></span>
-      </span>
-    </p>
-  </div>
-</div>;T:preI"T<div class="container">
-  <div class="jumbotron">
+</div>;T:preI"�<div class="row">
+  <div class="col-xs-12">
     <img class="img-responsive" src="images/comingsoon.jpg" alt="WrayBeauty.com Coming Soon" />
-  </div>
-
-  <div class="footer">
-    <h3>Contact</h3>
-    <p class="vcard">
-      <span class="email">
-        <a href="mailto:info@wraybeauty.com?subject=Hello There">info@wraybeauty.com</a>
-      </span>
-      <span class="tel"><a href="tel:+18888873334">+1-888-887-3334</a></span>
-      <span class="adr">
-        <span class="locality">Jersey City, NJ</span>, <span class="country-name">United States</span>
-      </span>
-    </p>
   </div>
 </div>;T:	post@
-:versioni
+I"/wedding-makeup/;T{;{	;I"�(<!doctype html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+    <head>
+        <title>WrayBeauty - Wedding Makeup</title>
+
+
+        <!-- ************************************************** -->
+        <!-- Meta Tags etc -->
+        <!-- ************************************************** -->
+        <meta charset="utf-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta name="author" content="MFRWDesign" />
+        <meta name="description" content="WrayBeauty: Your makeup will be perfect every time. Professional, beautiful, successful. Weddings, parties, private events. Find out what makes us different and better than the rest." />
+        <meta name="keywords" content="makeup artist, makeup, wedding makeup, wedding, professional makeup artist, cosmetologist, cosmetology, nina, nina wray, wray, wraybeauty, wray beauty, beauty" />
+        <meta name="HandheldFriendly" content="True" />
+        <meta name="MobileOptimized" content="320" />
+        <meta name="distribution" content="global" />
+        <meta name="robots" content="index,follow" />
+        <meta name="publisher" content="Published by MFRWDesign" />
+        <meta http-equiv="cleartype" content="on" />
+        <!-- TODO: Change href in below rss xml link to correct URL -->
+        <link rel="alternate" type="application/rss+xml" title="WrayBeauty RSS feed" href="http://wraybeauty.com/index.xml" />
+
+
+        <!-- ************************************************** -->
+        <!-- Stylesheets -->
+        <!-- ************************************************** -->
+
+        <!-- build:css(.tmp) styles/main.css -->
+        <link rel="stylesheet" type="text/css" href="../styles/main.css" />
+        <!-- endbuild -->
+
+
+        <!-- ************************************************** -->
+        <!-- JavaScript -->
+        <!-- ************************************************** -->
+
+        <!-- build:js scripts/vendor/modernizr.js -->
+        <script src="../bower_components/modernizr/modernizr.js"></script>
+        <!-- endbuild -->
+
+        <!-- TODO: Add in selectivizr or similar to support IE7&8 -->
+
+
+        <!-- ************************************************** -->
+        <!-- Icons -->
+        <!-- ************************************************** -->
+
+        <!-- TODO: Place favicon.ico and apple-touch-icon.png in the root directory -->
+        <!-- 16x16 -->
+        <link rel="shortcut icon" href="../favicon.ico">
+        <!-- 32x32 -->
+        <!-- <link rel="shortcut icon" href="../images/favicon.png"> -->
+
+        <!-- iOS apple-touch-icons -->
+        <!-- <link rel="apple-touch-icon-precomposed" sizes="144x144" href="../images/touch/apple-touch-icon-144x144-precomposed.png"> -->
+        <!-- <link rel="apple-touch-icon-precomposed" sizes="114x114" href="../images/touch/apple-touch-icon-114x114-precomposed.png"> -->
+        <!-- <link rel="apple-touch-icon-precomposed" sizes="72x72" href="../images/touch/apple-touch-icon-72x72-precomposed.png"> -->
+        <!-- <link rel="apple-touch-icon-precomposed" href="../images/touch/apple-touch-icon-57x57-precomposed.png"> -->
+        <!-- <link rel="shortcut icon" href="../images/touch/apple-touch-icon.png"> -->
+
+        <!-- Tile icon for Win8 (144x144 + tile color) -->
+        <!-- <meta name="msapplication-TileImage" content="../images/touch/apple-touch-icon-144x144-precomposed.png"> -->
+        <!-- <meta name="msapplication-TileColor" content="#010075"> -->
+    </head>
+    <body>
+
+        <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
+          <div class="container">
+          <!-- Brand and toggle get grouped for better mobile display -->
+          <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
+              <span class="sr-only">Menu</span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="/">WrayBeauty</a>
+          </div>
+          <!-- Collect the nav links, forms, and other content for toggling -->
+          <div class="collapse navbar-collapse navbar-ex1-collapse">
+            <ul class="nav navbar-nav navbar-right">
+              <li><a href="/">Home</a></li>
+              <li><a href="#" class="active" title="You're here.">Wedding</a></li>
+              <li><a href="/headshots-makeup/">Headshots</a></li>
+              <li><a href="/other-services-makeup/">Other Services</a></li>
+              <li><a href="/the-complete-package-makeup/">The Complete Package</a></li>
+            </ul>
+          </div><!-- /.navbar-collapse -->
+          </div>
+        </nav>
+
+
+        <!--[if lt IE 10]>
+            <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+        <![endif]-->
+
+
+        <div class="container">
+          <div class="row">
+  <div class="col-xs-12">
+    <h1 class="no-top-margin">Wedding</h1>
+  </div>
+</div>
+<div class="row">
+  <div class="col-xs-6">
+    <img class="img-responsive" src="../images/wedding-bride-makeup1.jpg" alt="Wedding Bride Makeup Photo 1" />
+  </div>
+  <div class="col-xs-6">
+    <img class="img-responsive" src="../images/wedding-makeup-artist2.jpg" alt="Wedding Makeup Artist Photo 2" />
+  </div>
+</div>
+<div class="row">
+  <div class="col-xs-12">
+    <h3>Your Day to Dazzle</h3>
+  </div>
+</div>
+<div class="row">
+  <div class="col-xs-12">
+    <p>Your Wedding day has arrived and you deserve to revel in every moment. It’s time to look and feel your best and let go of all the anxieties that come with planning such a momentous event. You want your makeup to enhance your natural beauty and give you confidence to mingle with your guests and dance the night away all while keeping your wedding day glow. I pride myself in making the application fun, supportive and professional even in the most hectic situations. You’ll be picture perfect even when crying tears of joy.  </p>
+    <ul>
+      <li>$225 – Bride</li>
+      <li>$125-each additional person</li>
+      <li>$75/hour for touch ups</li>
+      <li>$95 –Consultation fee</li>
+    </ul>
+    <p>*For services outside of Manhattan and North/Central New Jersey or destination weddings please <a href="#contact">contact</a> me.</p>
+  </div>
+</div>
+
+<div class="row">
+  <div class="col-xs-12">
+    <h3>Customer Testimonial:</h3>
+  </div>
+</div>
+<div class="row add-bottom-padding">
+  <div class="col-xs-12">
+    <blockquote>
+      <p>“Nina made my wedding a dream come true with the exquisite makeup she provided for my mother and me. She not only made us both feel completely beautiful and well cared for but she explained the process and made us feel completely comfortable. She was extremely professional and provided quality work that all my guests wowed over. I could not have been happier with how my makeup looked for my wedding!! Both my mother and I were 100% satisfied. I highly recommend Nina to all who want a quality makeup artist.”</p>
+      <p>-Anna Rose Meyerhoff</p>
+    </blockquote>
+    <img class="img-responsive" src="../images/wedding-just-married.jpg" alt="Wedding Just Married Photo 4" />
+  </div>
+</div>
+        </div>
+
+        <div class="container">
+          <div class="footer">
+            <h3 id="contact">Contact</h3>
+            <p class="vcard">
+              <span class="email">
+                <a href="mailto:info@wraybeauty.com?subject=Hello There">info@wraybeauty.com</a>
+              </span>
+              <!-- <span class="tel"><a href="tel:+18888873334">+1-888-887-3334</a></span> -->
+              <span class="adr">
+                <span class="locality">Jersey City, NJ</span>, <span class="country-name">United States</span>
+              </span>
+            </p>
+          </div>
+        </div>
+
+        <!-- build:js scripts/vendor.js -->
+        <!-- bower:js -->
+        <script src="../bower_components/jquery/jquery.js"></script>
+        <!-- endbower -->
+        <!-- endbuild -->
+
+        <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
+        <script>
+            (function(b,o,i,l,e,r){b.GoogleAnalyticsObject=l;b[l]||(b[l]=
+            function(){(b[l].q=b[l].q||[]).push(arguments)});b[l].l=+new Date;
+            e=o.createElement(i);r=o.getElementsByTagName(i)[0];
+            e.src='//www.google-analytics.com/analytics.js';
+            r.parentNode.insertBefore(e,r)}(window,document,'script','ga'));
+            ga('create','UA-XXXXX-X');ga('send','pageview');
+        </script>
+
+        <!-- build:js scripts/main.js -->
+        <script src="../scripts/main.js"></script>
+        <!-- endbuild -->
+
+        <!-- build:js(.tmp) scripts/coffee.js -->
+        <script src="../scripts/hello.js"></script>
+        <!-- endbuild -->
+
+        <!-- build:js scripts/plugins.js -->
+        <script src="../bower_components/sass-bootstrap/js/affix.js"></script>
+        <script src="../bower_components/sass-bootstrap/js/alert.js"></script>
+        <script src="../bower_components/sass-bootstrap/js/dropdown.js"></script>
+        <script src="../bower_components/sass-bootstrap/js/tooltip.js"></script>
+        <script src="../bower_components/sass-bootstrap/js/modal.js"></script>
+        <script src="../bower_components/sass-bootstrap/js/transition.js"></script>
+        <script src="../bower_components/sass-bootstrap/js/button.js"></script>
+        <script src="../bower_components/sass-bootstrap/js/popover.js"></script>
+        <script src="../bower_components/sass-bootstrap/js/carousel.js"></script>
+        <script src="../bower_components/sass-bootstrap/js/scrollspy.js"></script>
+        <script src="../bower_components/sass-bootstrap/js/collapse.js"></script>
+        <script src="../bower_components/sass-bootstrap/js/tab.js"></script>
+        <!-- endbuild -->
+</body>
+</html>
+;T;	I"7	<div class="row">
+  <div class="col-xs-12">
+    <h1 class="no-top-margin">Wedding</h1>
+  </div>
+</div>
+<div class="row">
+  <div class="col-xs-6">
+    <img class="img-responsive" src="<%= @item[:level] %>images/wedding-bride-makeup1.jpg" alt="Wedding Bride Makeup Photo 1" />
+  </div>
+  <div class="col-xs-6">
+    <img class="img-responsive" src="<%= @item[:level] %>images/wedding-makeup-artist2.jpg" alt="Wedding Makeup Artist Photo 2" />
+  </div>
+</div>
+<div class="row">
+  <div class="col-xs-12">
+    <h3>Your Day to Dazzle</h3>
+  </div>
+</div>
+<div class="row">
+  <div class="col-xs-12">
+    <p>Your Wedding day has arrived and you deserve to revel in every moment. It’s time to look and feel your best and let go of all the anxieties that come with planning such a momentous event. You want your makeup to enhance your natural beauty and give you confidence to mingle with your guests and dance the night away all while keeping your wedding day glow. I pride myself in making the application fun, supportive and professional even in the most hectic situations. You’ll be picture perfect even when crying tears of joy.  </p>
+    <ul>
+      <li>$225 – Bride</li>
+      <li>$125-each additional person</li>
+      <li>$75/hour for touch ups</li>
+      <li>$95 –Consultation fee</li>
+    </ul>
+    <p>*For services outside of Manhattan and North/Central New Jersey or destination weddings please <a href="#contact">contact</a> me.</p>
+  </div>
+</div>
+
+<div class="row">
+  <div class="col-xs-12">
+    <h3>Customer Testimonial:</h3>
+  </div>
+</div>
+<div class="row add-bottom-padding">
+  <div class="col-xs-12">
+    <blockquote>
+      <p>“Nina made my wedding a dream come true with the exquisite makeup she provided for my mother and me. She not only made us both feel completely beautiful and well cared for but she explained the process and made us feel completely comfortable. She was extremely professional and provided quality work that all my guests wowed over. I could not have been happier with how my makeup looked for my wedding!! Both my mother and I were 100% satisfied. I highly recommend Nina to all who want a quality makeup artist.”</p>
+      <p>-Anna Rose Meyerhoff</p>
+    </blockquote>
+    <img class="img-responsive" src="<%= @item[:level] %>images/wedding-just-married.jpg" alt="Wedding Just Married Photo 4" />
+  </div>
+</div>;T;
+I"	<div class="row">
+  <div class="col-xs-12">
+    <h1 class="no-top-margin">Wedding</h1>
+  </div>
+</div>
+<div class="row">
+  <div class="col-xs-6">
+    <img class="img-responsive" src="../images/wedding-bride-makeup1.jpg" alt="Wedding Bride Makeup Photo 1" />
+  </div>
+  <div class="col-xs-6">
+    <img class="img-responsive" src="../images/wedding-makeup-artist2.jpg" alt="Wedding Makeup Artist Photo 2" />
+  </div>
+</div>
+<div class="row">
+  <div class="col-xs-12">
+    <h3>Your Day to Dazzle</h3>
+  </div>
+</div>
+<div class="row">
+  <div class="col-xs-12">
+    <p>Your Wedding day has arrived and you deserve to revel in every moment. It’s time to look and feel your best and let go of all the anxieties that come with planning such a momentous event. You want your makeup to enhance your natural beauty and give you confidence to mingle with your guests and dance the night away all while keeping your wedding day glow. I pride myself in making the application fun, supportive and professional even in the most hectic situations. You’ll be picture perfect even when crying tears of joy.  </p>
+    <ul>
+      <li>$225 – Bride</li>
+      <li>$125-each additional person</li>
+      <li>$75/hour for touch ups</li>
+      <li>$95 –Consultation fee</li>
+    </ul>
+    <p>*For services outside of Manhattan and North/Central New Jersey or destination weddings please <a href="#contact">contact</a> me.</p>
+  </div>
+</div>
+
+<div class="row">
+  <div class="col-xs-12">
+    <h3>Customer Testimonial:</h3>
+  </div>
+</div>
+<div class="row add-bottom-padding">
+  <div class="col-xs-12">
+    <blockquote>
+      <p>“Nina made my wedding a dream come true with the exquisite makeup she provided for my mother and me. She not only made us both feel completely beautiful and well cared for but she explained the process and made us feel completely comfortable. She was extremely professional and provided quality work that all my guests wowed over. I could not have been happier with how my makeup looked for my wedding!! Both my mother and I were 100% satisfied. I highly recommend Nina to all who want a quality makeup artist.”</p>
+      <p>-Anna Rose Meyerhoff</p>
+    </blockquote>
+    <img class="img-responsive" src="../images/wedding-just-married.jpg" alt="Wedding Just Married Photo 4" />
+  </div>
+</div>;T;@I"/headshots-makeup/;T{;{	;I"](<!doctype html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+    <head>
+        <title>WrayBeauty - Headshots Makeup</title>
+
+
+        <!-- ************************************************** -->
+        <!-- Meta Tags etc -->
+        <!-- ************************************************** -->
+        <meta charset="utf-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta name="author" content="MFRWDesign" />
+        <meta name="description" content="WrayBeauty: Your makeup will be perfect every time. Professional, beautiful, successful. Weddings, parties, private events. Find out what makes us different and better than the rest." />
+        <meta name="keywords" content="makeup artist, makeup, wedding makeup, wedding, professional makeup artist, cosmetologist, cosmetology, nina, nina wray, wray, wraybeauty, wray beauty, beauty" />
+        <meta name="HandheldFriendly" content="True" />
+        <meta name="MobileOptimized" content="320" />
+        <meta name="distribution" content="global" />
+        <meta name="robots" content="index,follow" />
+        <meta name="publisher" content="Published by MFRWDesign" />
+        <meta http-equiv="cleartype" content="on" />
+        <!-- TODO: Change href in below rss xml link to correct URL -->
+        <link rel="alternate" type="application/rss+xml" title="WrayBeauty RSS feed" href="http://wraybeauty.com/index.xml" />
+
+
+        <!-- ************************************************** -->
+        <!-- Stylesheets -->
+        <!-- ************************************************** -->
+
+        <!-- build:css(.tmp) styles/main.css -->
+        <link rel="stylesheet" type="text/css" href="../styles/main.css" />
+        <!-- endbuild -->
+
+
+        <!-- ************************************************** -->
+        <!-- JavaScript -->
+        <!-- ************************************************** -->
+
+        <!-- build:js scripts/vendor/modernizr.js -->
+        <script src="../bower_components/modernizr/modernizr.js"></script>
+        <!-- endbuild -->
+
+        <!-- TODO: Add in selectivizr or similar to support IE7&8 -->
+
+
+        <!-- ************************************************** -->
+        <!-- Icons -->
+        <!-- ************************************************** -->
+
+        <!-- TODO: Place favicon.ico and apple-touch-icon.png in the root directory -->
+        <!-- 16x16 -->
+        <link rel="shortcut icon" href="../favicon.ico">
+        <!-- 32x32 -->
+        <!-- <link rel="shortcut icon" href="../images/favicon.png"> -->
+
+        <!-- iOS apple-touch-icons -->
+        <!-- <link rel="apple-touch-icon-precomposed" sizes="144x144" href="../images/touch/apple-touch-icon-144x144-precomposed.png"> -->
+        <!-- <link rel="apple-touch-icon-precomposed" sizes="114x114" href="../images/touch/apple-touch-icon-114x114-precomposed.png"> -->
+        <!-- <link rel="apple-touch-icon-precomposed" sizes="72x72" href="../images/touch/apple-touch-icon-72x72-precomposed.png"> -->
+        <!-- <link rel="apple-touch-icon-precomposed" href="../images/touch/apple-touch-icon-57x57-precomposed.png"> -->
+        <!-- <link rel="shortcut icon" href="../images/touch/apple-touch-icon.png"> -->
+
+        <!-- Tile icon for Win8 (144x144 + tile color) -->
+        <!-- <meta name="msapplication-TileImage" content="../images/touch/apple-touch-icon-144x144-precomposed.png"> -->
+        <!-- <meta name="msapplication-TileColor" content="#010075"> -->
+    </head>
+    <body>
+
+        <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
+          <div class="container">
+          <!-- Brand and toggle get grouped for better mobile display -->
+          <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
+              <span class="sr-only">Menu</span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="/">WrayBeauty</a>
+          </div>
+          <!-- Collect the nav links, forms, and other content for toggling -->
+          <div class="collapse navbar-collapse navbar-ex1-collapse">
+            <ul class="nav navbar-nav navbar-right">
+              <li><a href="/">Home</a></li>
+              <li><a href="/wedding-makeup/">Wedding</a></li>
+              <li><a href="#" class="active" title="You're here.">Headshots</a></li>
+              <li><a href="/other-services-makeup/">Other Services</a></li>
+              <li><a href="/the-complete-package-makeup/">The Complete Package</a></li>
+            </ul>
+          </div><!-- /.navbar-collapse -->
+          </div>
+        </nav>
+
+
+        <!--[if lt IE 10]>
+            <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+        <![endif]-->
+
+
+        <div class="container">
+          <div class="row">
+  <div class="col-xs-12">
+    <h1 class="no-top-margin">Headshots</h1>
+  </div>
+</div>
+<div class="row">
+  <div class="col-xs-6">
+    <img class="img-responsive" src="../images/capezio-beauty-frame1-flipped.jpg" alt="Headshots Capezio Beauty Frame Photo 1" />
+  </div>
+  <div class="col-xs-6">
+    <img class="img-responsive" src="../images/capezio-beauty-frame2.jpg" alt="Headshots Capezio Beauty Frame Photo 2" />
+  </div>
+</div>
+<div class="row">
+  <div class="col-xs-12">
+    <h3>Capture Your Confidence</h3>
+  </div>
+</div>
+<div class="row">
+  <div class="col-xs-12">
+    <p>From years of experience as an actor and makeup artist I know the importance of a great headshot. You want to go into your photo session knowing that you look your best in order to confidently share your personality with the camera.  It’s most important that we achieve a look that not only looks great on an 8 X 10 but one that you can recreate for the audition room. Together we’ll find that look that shows off everything that’s great about you so you can work it in front of the camera and get that perfect shot.</p>
+    <p>*Manhattan/North Jersey: makeup can be done at your residence or your photographer’s studio. If being done in your home please account for your travel time door to door.</p>
+    <ul>
+      <li>$100-makeup (allow 45min. for application)</li>
+      <li>$125-makeup and hair (allow 1 hour for application and hair)</li>
+    </ul>
+  </div>
+</div>
+
+<div class="row">
+  <div class="col-xs-12">
+    <h3>Customer Testimonial:</h3>
+  </div>
+</div>
+<div class="row add-bottom-padding">
+  <div class="col-xs-12">
+    <blockquote>
+      <p>"Having worked with a few dozen makeup artists in my life, I have to say Nina is one of the coolest and easiest to work with. She's extremely professional and listens to what you want out of a shoot, and gives you exactly that--without compromising her own creativity and eye for beauty. She does superb natural makeup too, which is ideal for headshots. I'm definitely using her the next time I need to get new shots done."</p>
+      <p>-Misha Calvert</p>
+    </blockquote>
+    <img class="img-responsive" src="../images/capezio-beauty4.jpg" alt="Headshots Capezio Beauty Photo 4" />
+  </div>
+</div>
+        </div>
+
+        <div class="container">
+          <div class="footer">
+            <h3 id="contact">Contact</h3>
+            <p class="vcard">
+              <span class="email">
+                <a href="mailto:info@wraybeauty.com?subject=Hello There">info@wraybeauty.com</a>
+              </span>
+              <!-- <span class="tel"><a href="tel:+18888873334">+1-888-887-3334</a></span> -->
+              <span class="adr">
+                <span class="locality">Jersey City, NJ</span>, <span class="country-name">United States</span>
+              </span>
+            </p>
+          </div>
+        </div>
+
+        <!-- build:js scripts/vendor.js -->
+        <!-- bower:js -->
+        <script src="../bower_components/jquery/jquery.js"></script>
+        <!-- endbower -->
+        <!-- endbuild -->
+
+        <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
+        <script>
+            (function(b,o,i,l,e,r){b.GoogleAnalyticsObject=l;b[l]||(b[l]=
+            function(){(b[l].q=b[l].q||[]).push(arguments)});b[l].l=+new Date;
+            e=o.createElement(i);r=o.getElementsByTagName(i)[0];
+            e.src='//www.google-analytics.com/analytics.js';
+            r.parentNode.insertBefore(e,r)}(window,document,'script','ga'));
+            ga('create','UA-XXXXX-X');ga('send','pageview');
+        </script>
+
+        <!-- build:js scripts/main.js -->
+        <script src="../scripts/main.js"></script>
+        <!-- endbuild -->
+
+        <!-- build:js(.tmp) scripts/coffee.js -->
+        <script src="../scripts/hello.js"></script>
+        <!-- endbuild -->
+
+        <!-- build:js scripts/plugins.js -->
+        <script src="../bower_components/sass-bootstrap/js/affix.js"></script>
+        <script src="../bower_components/sass-bootstrap/js/alert.js"></script>
+        <script src="../bower_components/sass-bootstrap/js/dropdown.js"></script>
+        <script src="../bower_components/sass-bootstrap/js/tooltip.js"></script>
+        <script src="../bower_components/sass-bootstrap/js/modal.js"></script>
+        <script src="../bower_components/sass-bootstrap/js/transition.js"></script>
+        <script src="../bower_components/sass-bootstrap/js/button.js"></script>
+        <script src="../bower_components/sass-bootstrap/js/popover.js"></script>
+        <script src="../bower_components/sass-bootstrap/js/carousel.js"></script>
+        <script src="../bower_components/sass-bootstrap/js/scrollspy.js"></script>
+        <script src="../bower_components/sass-bootstrap/js/collapse.js"></script>
+        <script src="../bower_components/sass-bootstrap/js/tab.js"></script>
+        <!-- endbuild -->
+</body>
+</html>
+;T;	I"	<div class="row">
+  <div class="col-xs-12">
+    <h1 class="no-top-margin">Headshots</h1>
+  </div>
+</div>
+<div class="row">
+  <div class="col-xs-6">
+    <img class="img-responsive" src="<%= @item[:level] %>images/capezio-beauty-frame1-flipped.jpg" alt="Headshots Capezio Beauty Frame Photo 1" />
+  </div>
+  <div class="col-xs-6">
+    <img class="img-responsive" src="<%= @item[:level] %>images/capezio-beauty-frame2.jpg" alt="Headshots Capezio Beauty Frame Photo 2" />
+  </div>
+</div>
+<div class="row">
+  <div class="col-xs-12">
+    <h3>Capture Your Confidence</h3>
+  </div>
+</div>
+<div class="row">
+  <div class="col-xs-12">
+    <p>From years of experience as an actor and makeup artist I know the importance of a great headshot. You want to go into your photo session knowing that you look your best in order to confidently share your personality with the camera.  It’s most important that we achieve a look that not only looks great on an 8 X 10 but one that you can recreate for the audition room. Together we’ll find that look that shows off everything that’s great about you so you can work it in front of the camera and get that perfect shot.</p>
+    <p>*Manhattan/North Jersey: makeup can be done at your residence or your photographer’s studio. If being done in your home please account for your travel time door to door.</p>
+    <ul>
+      <li>$100-makeup (allow 45min. for application)</li>
+      <li>$125-makeup and hair (allow 1 hour for application and hair)</li>
+    </ul>
+  </div>
+</div>
+
+<div class="row">
+  <div class="col-xs-12">
+    <h3>Customer Testimonial:</h3>
+  </div>
+</div>
+<div class="row add-bottom-padding">
+  <div class="col-xs-12">
+    <blockquote>
+      <p>"Having worked with a few dozen makeup artists in my life, I have to say Nina is one of the coolest and easiest to work with. She's extremely professional and listens to what you want out of a shoot, and gives you exactly that--without compromising her own creativity and eye for beauty. She does superb natural makeup too, which is ideal for headshots. I'm definitely using her the next time I need to get new shots done."</p>
+      <p>-Misha Calvert</p>
+    </blockquote>
+    <img class="img-responsive" src="<%= @item[:level] %>images/capezio-beauty4.jpg" alt="Headshots Capezio Beauty Photo 4" />
+  </div>
+</div>;T;
+I"�<div class="row">
+  <div class="col-xs-12">
+    <h1 class="no-top-margin">Headshots</h1>
+  </div>
+</div>
+<div class="row">
+  <div class="col-xs-6">
+    <img class="img-responsive" src="../images/capezio-beauty-frame1-flipped.jpg" alt="Headshots Capezio Beauty Frame Photo 1" />
+  </div>
+  <div class="col-xs-6">
+    <img class="img-responsive" src="../images/capezio-beauty-frame2.jpg" alt="Headshots Capezio Beauty Frame Photo 2" />
+  </div>
+</div>
+<div class="row">
+  <div class="col-xs-12">
+    <h3>Capture Your Confidence</h3>
+  </div>
+</div>
+<div class="row">
+  <div class="col-xs-12">
+    <p>From years of experience as an actor and makeup artist I know the importance of a great headshot. You want to go into your photo session knowing that you look your best in order to confidently share your personality with the camera.  It’s most important that we achieve a look that not only looks great on an 8 X 10 but one that you can recreate for the audition room. Together we’ll find that look that shows off everything that’s great about you so you can work it in front of the camera and get that perfect shot.</p>
+    <p>*Manhattan/North Jersey: makeup can be done at your residence or your photographer’s studio. If being done in your home please account for your travel time door to door.</p>
+    <ul>
+      <li>$100-makeup (allow 45min. for application)</li>
+      <li>$125-makeup and hair (allow 1 hour for application and hair)</li>
+    </ul>
+  </div>
+</div>
+
+<div class="row">
+  <div class="col-xs-12">
+    <h3>Customer Testimonial:</h3>
+  </div>
+</div>
+<div class="row add-bottom-padding">
+  <div class="col-xs-12">
+    <blockquote>
+      <p>"Having worked with a few dozen makeup artists in my life, I have to say Nina is one of the coolest and easiest to work with. She's extremely professional and listens to what you want out of a shoot, and gives you exactly that--without compromising her own creativity and eye for beauty. She does superb natural makeup too, which is ideal for headshots. I'm definitely using her the next time I need to get new shots done."</p>
+      <p>-Misha Calvert</p>
+    </blockquote>
+    <img class="img-responsive" src="../images/capezio-beauty4.jpg" alt="Headshots Capezio Beauty Photo 4" />
+  </div>
+</div>;T;@I"/other-services-makeup/;T{;{	;I"�%<!doctype html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+    <head>
+        <title>WrayBeauty - Other Services Makeup</title>
+
+
+        <!-- ************************************************** -->
+        <!-- Meta Tags etc -->
+        <!-- ************************************************** -->
+        <meta charset="utf-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta name="author" content="MFRWDesign" />
+        <meta name="description" content="WrayBeauty: Your makeup will be perfect every time. Professional, beautiful, successful. Weddings, parties, private events. Find out what makes us different and better than the rest." />
+        <meta name="keywords" content="makeup artist, makeup, wedding makeup, wedding, professional makeup artist, cosmetologist, cosmetology, nina, nina wray, wray, wraybeauty, wray beauty, beauty" />
+        <meta name="HandheldFriendly" content="True" />
+        <meta name="MobileOptimized" content="320" />
+        <meta name="distribution" content="global" />
+        <meta name="robots" content="index,follow" />
+        <meta name="publisher" content="Published by MFRWDesign" />
+        <meta http-equiv="cleartype" content="on" />
+        <!-- TODO: Change href in below rss xml link to correct URL -->
+        <link rel="alternate" type="application/rss+xml" title="WrayBeauty RSS feed" href="http://wraybeauty.com/index.xml" />
+
+
+        <!-- ************************************************** -->
+        <!-- Stylesheets -->
+        <!-- ************************************************** -->
+
+        <!-- build:css(.tmp) styles/main.css -->
+        <link rel="stylesheet" type="text/css" href="../styles/main.css" />
+        <!-- endbuild -->
+
+
+        <!-- ************************************************** -->
+        <!-- JavaScript -->
+        <!-- ************************************************** -->
+
+        <!-- build:js scripts/vendor/modernizr.js -->
+        <script src="../bower_components/modernizr/modernizr.js"></script>
+        <!-- endbuild -->
+
+        <!-- TODO: Add in selectivizr or similar to support IE7&8 -->
+
+
+        <!-- ************************************************** -->
+        <!-- Icons -->
+        <!-- ************************************************** -->
+
+        <!-- TODO: Place favicon.ico and apple-touch-icon.png in the root directory -->
+        <!-- 16x16 -->
+        <link rel="shortcut icon" href="../favicon.ico">
+        <!-- 32x32 -->
+        <!-- <link rel="shortcut icon" href="../images/favicon.png"> -->
+
+        <!-- iOS apple-touch-icons -->
+        <!-- <link rel="apple-touch-icon-precomposed" sizes="144x144" href="../images/touch/apple-touch-icon-144x144-precomposed.png"> -->
+        <!-- <link rel="apple-touch-icon-precomposed" sizes="114x114" href="../images/touch/apple-touch-icon-114x114-precomposed.png"> -->
+        <!-- <link rel="apple-touch-icon-precomposed" sizes="72x72" href="../images/touch/apple-touch-icon-72x72-precomposed.png"> -->
+        <!-- <link rel="apple-touch-icon-precomposed" href="../images/touch/apple-touch-icon-57x57-precomposed.png"> -->
+        <!-- <link rel="shortcut icon" href="../images/touch/apple-touch-icon.png"> -->
+
+        <!-- Tile icon for Win8 (144x144 + tile color) -->
+        <!-- <meta name="msapplication-TileImage" content="../images/touch/apple-touch-icon-144x144-precomposed.png"> -->
+        <!-- <meta name="msapplication-TileColor" content="#010075"> -->
+    </head>
+    <body>
+
+        <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
+          <div class="container">
+          <!-- Brand and toggle get grouped for better mobile display -->
+          <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
+              <span class="sr-only">Menu</span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="/">WrayBeauty</a>
+          </div>
+          <!-- Collect the nav links, forms, and other content for toggling -->
+          <div class="collapse navbar-collapse navbar-ex1-collapse">
+            <ul class="nav navbar-nav navbar-right">
+              <li><a href="/">Home</a></li>
+              <li><a href="/wedding-makeup/">Wedding</a></li>
+              <li><a href="/headshots-makeup/">Headshots</a></li>
+              <li><a href="#" class="active" title="You're here.">Other Services</a></li>
+              <li><a href="/the-complete-package-makeup/">The Complete Package</a></li>
+            </ul>
+          </div><!-- /.navbar-collapse -->
+          </div>
+        </nav>
+
+
+        <!--[if lt IE 10]>
+            <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+        <![endif]-->
+
+
+        <div class="container">
+          <div class="row">
+  <div class="col-xs-12">
+    <h1 class="no-top-margin">Other Services</h1>
+  </div>
+</div>
+<div class="row">
+  <div class="col-xs-6">
+    <img class="img-responsive" src="../images/kg-sarah-natural-makeup3.jpg" alt="Other Services KG Sarah Natural Makeup Photo 3" />
+  </div>
+  <div class="col-xs-6">
+    <img class="img-responsive" src="../images/capezio-leotard-pink.jpg" alt="Other Services Capezio Leotard Pink Photo" />
+  </div>
+</div>
+<div class="row">
+  <div class="col-xs-12">
+    <h3>Bag Inspection and Makeup Lesson</h3>
+  </div>
+</div>
+<div class="row">
+  <div class="col-xs-12">
+    <p>Together we’ll go through you makeup bag and decide what’s working for you and what’s working against you.  Next, we’ll create a look that you can easily achieve on you own with a combination of your products and some help from my extensive makeup kit. I’ll apply makeup to half of your face and-with my guidance- you’ll recreate the look on the other side.  We’ll work together until we get it right. By the end of our session you’ll feel confident in your own application abilities. I’ll also give you a list of products you can purchase to fill out your makeup bag (I’m totally unbiased when it comes to brand, I just fill you in on what I know works).</p>
+    <ul>
+      <li>$150 (allow at least two hours)</li>
+    </ul>
+  </div>
+</div>
+
+<div class="row add-bottom-padding">
+  <div class="col-xs-12">
+    <img class="img-responsive" src="../images/kg-sarah-evening-makeup2.jpg" alt="Other Services KG Sarah Evening Makeup Photo 2" />
+  </div>
+</div>
+        </div>
+
+        <div class="container">
+          <div class="footer">
+            <h3 id="contact">Contact</h3>
+            <p class="vcard">
+              <span class="email">
+                <a href="mailto:info@wraybeauty.com?subject=Hello There">info@wraybeauty.com</a>
+              </span>
+              <!-- <span class="tel"><a href="tel:+18888873334">+1-888-887-3334</a></span> -->
+              <span class="adr">
+                <span class="locality">Jersey City, NJ</span>, <span class="country-name">United States</span>
+              </span>
+            </p>
+          </div>
+        </div>
+
+        <!-- build:js scripts/vendor.js -->
+        <!-- bower:js -->
+        <script src="../bower_components/jquery/jquery.js"></script>
+        <!-- endbower -->
+        <!-- endbuild -->
+
+        <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
+        <script>
+            (function(b,o,i,l,e,r){b.GoogleAnalyticsObject=l;b[l]||(b[l]=
+            function(){(b[l].q=b[l].q||[]).push(arguments)});b[l].l=+new Date;
+            e=o.createElement(i);r=o.getElementsByTagName(i)[0];
+            e.src='//www.google-analytics.com/analytics.js';
+            r.parentNode.insertBefore(e,r)}(window,document,'script','ga'));
+            ga('create','UA-XXXXX-X');ga('send','pageview');
+        </script>
+
+        <!-- build:js scripts/main.js -->
+        <script src="../scripts/main.js"></script>
+        <!-- endbuild -->
+
+        <!-- build:js(.tmp) scripts/coffee.js -->
+        <script src="../scripts/hello.js"></script>
+        <!-- endbuild -->
+
+        <!-- build:js scripts/plugins.js -->
+        <script src="../bower_components/sass-bootstrap/js/affix.js"></script>
+        <script src="../bower_components/sass-bootstrap/js/alert.js"></script>
+        <script src="../bower_components/sass-bootstrap/js/dropdown.js"></script>
+        <script src="../bower_components/sass-bootstrap/js/tooltip.js"></script>
+        <script src="../bower_components/sass-bootstrap/js/modal.js"></script>
+        <script src="../bower_components/sass-bootstrap/js/transition.js"></script>
+        <script src="../bower_components/sass-bootstrap/js/button.js"></script>
+        <script src="../bower_components/sass-bootstrap/js/popover.js"></script>
+        <script src="../bower_components/sass-bootstrap/js/carousel.js"></script>
+        <script src="../bower_components/sass-bootstrap/js/scrollspy.js"></script>
+        <script src="../bower_components/sass-bootstrap/js/collapse.js"></script>
+        <script src="../bower_components/sass-bootstrap/js/tab.js"></script>
+        <!-- endbuild -->
+</body>
+</html>
+;T;	I"j<div class="row">
+  <div class="col-xs-12">
+    <h1 class="no-top-margin">Other Services</h1>
+  </div>
+</div>
+<div class="row">
+  <div class="col-xs-6">
+    <img class="img-responsive" src="<%= @item[:level] %>images/kg-sarah-natural-makeup3.jpg" alt="Other Services KG Sarah Natural Makeup Photo 3" />
+  </div>
+  <div class="col-xs-6">
+    <img class="img-responsive" src="<%= @item[:level] %>images/capezio-leotard-pink.jpg" alt="Other Services Capezio Leotard Pink Photo" />
+  </div>
+</div>
+<div class="row">
+  <div class="col-xs-12">
+    <h3>Bag Inspection and Makeup Lesson</h3>
+  </div>
+</div>
+<div class="row">
+  <div class="col-xs-12">
+    <p>Together we’ll go through you makeup bag and decide what’s working for you and what’s working against you.  Next, we’ll create a look that you can easily achieve on you own with a combination of your products and some help from my extensive makeup kit. I’ll apply makeup to half of your face and-with my guidance- you’ll recreate the look on the other side.  We’ll work together until we get it right. By the end of our session you’ll feel confident in your own application abilities. I’ll also give you a list of products you can purchase to fill out your makeup bag (I’m totally unbiased when it comes to brand, I just fill you in on what I know works).</p>
+    <ul>
+      <li>$150 (allow at least two hours)</li>
+    </ul>
+  </div>
+</div>
+
+<div class="row add-bottom-padding">
+  <div class="col-xs-12">
+    <img class="img-responsive" src="<%= @item[:level] %>images/kg-sarah-evening-makeup2.jpg" alt="Other Services KG Sarah Evening Makeup Photo 2" />
+  </div>
+</div>;T;
+I"7<div class="row">
+  <div class="col-xs-12">
+    <h1 class="no-top-margin">Other Services</h1>
+  </div>
+</div>
+<div class="row">
+  <div class="col-xs-6">
+    <img class="img-responsive" src="../images/kg-sarah-natural-makeup3.jpg" alt="Other Services KG Sarah Natural Makeup Photo 3" />
+  </div>
+  <div class="col-xs-6">
+    <img class="img-responsive" src="../images/capezio-leotard-pink.jpg" alt="Other Services Capezio Leotard Pink Photo" />
+  </div>
+</div>
+<div class="row">
+  <div class="col-xs-12">
+    <h3>Bag Inspection and Makeup Lesson</h3>
+  </div>
+</div>
+<div class="row">
+  <div class="col-xs-12">
+    <p>Together we’ll go through you makeup bag and decide what’s working for you and what’s working against you.  Next, we’ll create a look that you can easily achieve on you own with a combination of your products and some help from my extensive makeup kit. I’ll apply makeup to half of your face and-with my guidance- you’ll recreate the look on the other side.  We’ll work together until we get it right. By the end of our session you’ll feel confident in your own application abilities. I’ll also give you a list of products you can purchase to fill out your makeup bag (I’m totally unbiased when it comes to brand, I just fill you in on what I know works).</p>
+    <ul>
+      <li>$150 (allow at least two hours)</li>
+    </ul>
+  </div>
+</div>
+
+<div class="row add-bottom-padding">
+  <div class="col-xs-12">
+    <img class="img-responsive" src="../images/kg-sarah-evening-makeup2.jpg" alt="Other Services KG Sarah Evening Makeup Photo 2" />
+  </div>
+</div>;T;@I""/the-complete-package-makeup/;T{;{	;I"�&<!doctype html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+    <head>
+        <title>WrayBeauty - The Complete Package Makeup</title>
+
+
+        <!-- ************************************************** -->
+        <!-- Meta Tags etc -->
+        <!-- ************************************************** -->
+        <meta charset="utf-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta name="author" content="MFRWDesign" />
+        <meta name="description" content="WrayBeauty: Your makeup will be perfect every time. Professional, beautiful, successful. Weddings, parties, private events. Find out what makes us different and better than the rest." />
+        <meta name="keywords" content="makeup artist, makeup, wedding makeup, wedding, professional makeup artist, cosmetologist, cosmetology, nina, nina wray, wray, wraybeauty, wray beauty, beauty" />
+        <meta name="HandheldFriendly" content="True" />
+        <meta name="MobileOptimized" content="320" />
+        <meta name="distribution" content="global" />
+        <meta name="robots" content="index,follow" />
+        <meta name="publisher" content="Published by MFRWDesign" />
+        <meta http-equiv="cleartype" content="on" />
+        <!-- TODO: Change href in below rss xml link to correct URL -->
+        <link rel="alternate" type="application/rss+xml" title="WrayBeauty RSS feed" href="http://wraybeauty.com/index.xml" />
+
+
+        <!-- ************************************************** -->
+        <!-- Stylesheets -->
+        <!-- ************************************************** -->
+
+        <!-- build:css(.tmp) styles/main.css -->
+        <link rel="stylesheet" type="text/css" href="../styles/main.css" />
+        <!-- endbuild -->
+
+
+        <!-- ************************************************** -->
+        <!-- JavaScript -->
+        <!-- ************************************************** -->
+
+        <!-- build:js scripts/vendor/modernizr.js -->
+        <script src="../bower_components/modernizr/modernizr.js"></script>
+        <!-- endbuild -->
+
+        <!-- TODO: Add in selectivizr or similar to support IE7&8 -->
+
+
+        <!-- ************************************************** -->
+        <!-- Icons -->
+        <!-- ************************************************** -->
+
+        <!-- TODO: Place favicon.ico and apple-touch-icon.png in the root directory -->
+        <!-- 16x16 -->
+        <link rel="shortcut icon" href="../favicon.ico">
+        <!-- 32x32 -->
+        <!-- <link rel="shortcut icon" href="../images/favicon.png"> -->
+
+        <!-- iOS apple-touch-icons -->
+        <!-- <link rel="apple-touch-icon-precomposed" sizes="144x144" href="../images/touch/apple-touch-icon-144x144-precomposed.png"> -->
+        <!-- <link rel="apple-touch-icon-precomposed" sizes="114x114" href="../images/touch/apple-touch-icon-114x114-precomposed.png"> -->
+        <!-- <link rel="apple-touch-icon-precomposed" sizes="72x72" href="../images/touch/apple-touch-icon-72x72-precomposed.png"> -->
+        <!-- <link rel="apple-touch-icon-precomposed" href="../images/touch/apple-touch-icon-57x57-precomposed.png"> -->
+        <!-- <link rel="shortcut icon" href="../images/touch/apple-touch-icon.png"> -->
+
+        <!-- Tile icon for Win8 (144x144 + tile color) -->
+        <!-- <meta name="msapplication-TileImage" content="../images/touch/apple-touch-icon-144x144-precomposed.png"> -->
+        <!-- <meta name="msapplication-TileColor" content="#010075"> -->
+    </head>
+    <body>
+
+        <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
+          <div class="container">
+          <!-- Brand and toggle get grouped for better mobile display -->
+          <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
+              <span class="sr-only">Menu</span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="/">WrayBeauty</a>
+          </div>
+          <!-- Collect the nav links, forms, and other content for toggling -->
+          <div class="collapse navbar-collapse navbar-ex1-collapse">
+            <ul class="nav navbar-nav navbar-right">
+              <li><a href="/">Home</a></li>
+              <li><a href="/wedding-makeup/">Wedding</a></li>
+              <li><a href="/headshots-makeup/">Headshots</a></li>
+              <li><a href="/other-services-makeup/">Other Services</a></li>
+              <li><a href="#" class="active" title="You're here.">The Complete Package</a></li>
+            </ul>
+          </div><!-- /.navbar-collapse -->
+          </div>
+        </nav>
+
+
+        <!--[if lt IE 10]>
+            <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+        <![endif]-->
+
+
+        <div class="container">
+          <div class="row">
+  <div class="col-xs-12">
+    <h1 class="no-top-margin">The Complete Package</h1>
+  </div>
+</div>
+<div class="row">
+  <div class="col-xs-6">
+    <img class="img-responsive" src="../images/capezio-halloween-green-witch1.jpg" alt="The Complete Package Capezio Halloween Green Witch Photo 1" />
+  </div>
+  <div class="col-xs-6">
+    <img class="img-responsive" src="../images/capezio-leotard-green.jpg" alt="The Complete Package Capezio Leotard Green Photo" />
+  </div>
+</div>
+<div class="row">
+  <div class="col-xs-12">
+    <h3>Everything You Need</h3>
+  </div>
+</div>
+<div class="row">
+  <div class="col-xs-12">
+    <p>Ready for a day of beauty and fun? First we’ll go through your makeup bag and toss whatever isn’t working for you. I’ll fill you in on what colors and products work best for your skin tone and any skin conditions you have. From there we’ll head out on a makeup shopping adventure (I can easily work within your budget). When we’re finished your makeup bag will perfectly tailored to you. Next we’ll head back and try it all out. You can choose to have a full application done by me with detailed instructions or I can apply makeup to half of your face and you can recreate the same look on the other side. </p>
+    <ul>
+      <li>$350. – Full Day (about 6 hours but there is no time limit)</li>
+      <li>$400 – Split days (You can choose to split up the service over two days. $200 is due on each day of service. Days so not need to be consecutive.)</li>
+    </ul>
+    <p>*Group rates are available. Feel free to <a href="#contact">contact</a> me for more information.</p>
+  </div>
+</div>
+
+<div class="row add-bottom-padding">
+  <div class="col-xs-12">
+    <img class="img-responsive" src="../images/capezio-halloween-red-devil.jpg" alt="The Complete Package Capezio Halloween Red Devil Photo" />
+  </div>
+</div>
+        </div>
+
+        <div class="container">
+          <div class="footer">
+            <h3 id="contact">Contact</h3>
+            <p class="vcard">
+              <span class="email">
+                <a href="mailto:info@wraybeauty.com?subject=Hello There">info@wraybeauty.com</a>
+              </span>
+              <!-- <span class="tel"><a href="tel:+18888873334">+1-888-887-3334</a></span> -->
+              <span class="adr">
+                <span class="locality">Jersey City, NJ</span>, <span class="country-name">United States</span>
+              </span>
+            </p>
+          </div>
+        </div>
+
+        <!-- build:js scripts/vendor.js -->
+        <!-- bower:js -->
+        <script src="../bower_components/jquery/jquery.js"></script>
+        <!-- endbower -->
+        <!-- endbuild -->
+
+        <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
+        <script>
+            (function(b,o,i,l,e,r){b.GoogleAnalyticsObject=l;b[l]||(b[l]=
+            function(){(b[l].q=b[l].q||[]).push(arguments)});b[l].l=+new Date;
+            e=o.createElement(i);r=o.getElementsByTagName(i)[0];
+            e.src='//www.google-analytics.com/analytics.js';
+            r.parentNode.insertBefore(e,r)}(window,document,'script','ga'));
+            ga('create','UA-XXXXX-X');ga('send','pageview');
+        </script>
+
+        <!-- build:js scripts/main.js -->
+        <script src="../scripts/main.js"></script>
+        <!-- endbuild -->
+
+        <!-- build:js(.tmp) scripts/coffee.js -->
+        <script src="../scripts/hello.js"></script>
+        <!-- endbuild -->
+
+        <!-- build:js scripts/plugins.js -->
+        <script src="../bower_components/sass-bootstrap/js/affix.js"></script>
+        <script src="../bower_components/sass-bootstrap/js/alert.js"></script>
+        <script src="../bower_components/sass-bootstrap/js/dropdown.js"></script>
+        <script src="../bower_components/sass-bootstrap/js/tooltip.js"></script>
+        <script src="../bower_components/sass-bootstrap/js/modal.js"></script>
+        <script src="../bower_components/sass-bootstrap/js/transition.js"></script>
+        <script src="../bower_components/sass-bootstrap/js/button.js"></script>
+        <script src="../bower_components/sass-bootstrap/js/popover.js"></script>
+        <script src="../bower_components/sass-bootstrap/js/carousel.js"></script>
+        <script src="../bower_components/sass-bootstrap/js/scrollspy.js"></script>
+        <script src="../bower_components/sass-bootstrap/js/collapse.js"></script>
+        <script src="../bower_components/sass-bootstrap/js/tab.js"></script>
+        <!-- endbuild -->
+</body>
+</html>
+;T;	I"|<div class="row">
+  <div class="col-xs-12">
+    <h1 class="no-top-margin">The Complete Package</h1>
+  </div>
+</div>
+<div class="row">
+  <div class="col-xs-6">
+    <img class="img-responsive" src="<%= @item[:level] %>images/capezio-halloween-green-witch1.jpg" alt="The Complete Package Capezio Halloween Green Witch Photo 1" />
+  </div>
+  <div class="col-xs-6">
+    <img class="img-responsive" src="<%= @item[:level] %>images/capezio-leotard-green.jpg" alt="The Complete Package Capezio Leotard Green Photo" />
+  </div>
+</div>
+<div class="row">
+  <div class="col-xs-12">
+    <h3>Everything You Need</h3>
+  </div>
+</div>
+<div class="row">
+  <div class="col-xs-12">
+    <p>Ready for a day of beauty and fun? First we’ll go through your makeup bag and toss whatever isn’t working for you. I’ll fill you in on what colors and products work best for your skin tone and any skin conditions you have. From there we’ll head out on a makeup shopping adventure (I can easily work within your budget). When we’re finished your makeup bag will perfectly tailored to you. Next we’ll head back and try it all out. You can choose to have a full application done by me with detailed instructions or I can apply makeup to half of your face and you can recreate the same look on the other side. </p>
+    <ul>
+      <li>$350. – Full Day (about 6 hours but there is no time limit)</li>
+      <li>$400 – Split days (You can choose to split up the service over two days. $200 is due on each day of service. Days so not need to be consecutive.)</li>
+    </ul>
+    <p>*Group rates are available. Feel free to <a href="#contact">contact</a> me for more information.</p>
+  </div>
+</div>
+
+<div class="row add-bottom-padding">
+  <div class="col-xs-12">
+    <img class="img-responsive" src="<%= @item[:level] %>images/capezio-halloween-red-devil.jpg" alt="The Complete Package Capezio Halloween Red Devil Photo" />
+  </div>
+</div>;T;
+I"I<div class="row">
+  <div class="col-xs-12">
+    <h1 class="no-top-margin">The Complete Package</h1>
+  </div>
+</div>
+<div class="row">
+  <div class="col-xs-6">
+    <img class="img-responsive" src="../images/capezio-halloween-green-witch1.jpg" alt="The Complete Package Capezio Halloween Green Witch Photo 1" />
+  </div>
+  <div class="col-xs-6">
+    <img class="img-responsive" src="../images/capezio-leotard-green.jpg" alt="The Complete Package Capezio Leotard Green Photo" />
+  </div>
+</div>
+<div class="row">
+  <div class="col-xs-12">
+    <h3>Everything You Need</h3>
+  </div>
+</div>
+<div class="row">
+  <div class="col-xs-12">
+    <p>Ready for a day of beauty and fun? First we’ll go through your makeup bag and toss whatever isn’t working for you. I’ll fill you in on what colors and products work best for your skin tone and any skin conditions you have. From there we’ll head out on a makeup shopping adventure (I can easily work within your budget). When we’re finished your makeup bag will perfectly tailored to you. Next we’ll head back and try it all out. You can choose to have a full application done by me with detailed instructions or I can apply makeup to half of your face and you can recreate the same look on the other side. </p>
+    <ul>
+      <li>$350. – Full Day (about 6 hours but there is no time limit)</li>
+      <li>$400 – Split days (You can choose to split up the service over two days. $200 is due on each day of service. Days so not need to be consecutive.)</li>
+    </ul>
+    <p>*Group rates are available. Feel free to <a href="#contact">contact</a> me for more information.</p>
+  </div>
+</div>
+
+<div class="row add-bottom-padding">
+  <div class="col-xs-12">
+    <img class="img-responsive" src="../images/capezio-halloween-red-devil.jpg" alt="The Complete Package Capezio Halloween Red Devil Photo" />
+  </div>
+</div>;T;@":versioni

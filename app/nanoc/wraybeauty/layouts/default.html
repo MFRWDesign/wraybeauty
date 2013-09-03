@@ -32,7 +32,7 @@
         <!-- ************************************************** -->
 
         <!-- build:css(.tmp) styles/main.css -->
-        <link rel="stylesheet" type="text/css" href="styles/main.css" />
+        <link rel="stylesheet" type="text/css" href="<%= @item[:level] %>styles/main.css" />
         <!-- endbuild -->
 
 
@@ -41,7 +41,7 @@
         <!-- ************************************************** -->
 
         <!-- build:js scripts/vendor/modernizr.js -->
-        <script src="bower_components/modernizr/modernizr.js"></script>
+        <script src="<%= @item[:level] %>bower_components/modernizr/modernizr.js"></script>
         <!-- endbuild -->
 
         <!-- TODO: Add in selectivizr or similar to support IE7&8 -->
@@ -69,17 +69,60 @@
         <!-- <meta name="msapplication-TileColor" content="#010075"> -->
     </head>
     <body>
+
+        <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
+          <div class="container">
+          <!-- Brand and toggle get grouped for better mobile display -->
+          <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
+              <span class="sr-only">Menu</span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="/">WrayBeauty</a>
+          </div>
+          <!-- Collect the nav links, forms, and other content for toggling -->
+          <div class="collapse navbar-collapse navbar-ex1-collapse">
+            <ul class="nav navbar-nav navbar-right">
+              <li><%= link_to_unless_current_active('Home', '/') %></li>
+              <li><%= link_to_unless_current_active('Wedding', '/wedding-makeup/') %></li>
+              <li><%= link_to_unless_current_active('Headshots', '/headshots-makeup/') %></li>
+              <li><%= link_to_unless_current_active('Other Services', '/other-services-makeup/') %></li>
+              <li><%= link_to_unless_current_active('The Complete Package', '/the-complete-package-makeup/') %></li>
+            </ul>
+          </div><!-- /.navbar-collapse -->
+          </div>
+        </nav>
+
+
         <!--[if lt IE 10]>
             <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
         <![endif]-->
 
 
-        <%= yield %>
+        <div class="container">
+          <%= yield %>
+        </div>
 
+        <div class="container">
+          <div class="footer">
+            <h3 id="contact">Contact</h3>
+            <p class="vcard">
+              <span class="email">
+                <a href="mailto:<%= @site.config[:email] %>?subject=Hello There"><%= @site.config[:email] %></a>
+              </span>
+              <!-- <span class="tel"><a href="tel:<%= @site.config[:phonelink] %>"><%= @site.config[:phone] %></a></span> -->
+              <span class="adr">
+                <span class="locality"><%= @site.config[:city] %></span>, <span class="country-name"><%= @site.config[:country] %></span>
+              </span>
+            </p>
+          </div>
+        </div>
 
         <!-- build:js scripts/vendor.js -->
         <!-- bower:js -->
-        <script src="bower_components/jquery/jquery.js"></script>
+        <script src="<%= @item[:level] %>bower_components/jquery/jquery.js"></script>
         <!-- endbower -->
         <!-- endbuild -->
 
@@ -94,26 +137,26 @@
         </script>
 
         <!-- build:js scripts/main.js -->
-        <script src="scripts/main.js"></script>
+        <script src="<%= @item[:level] %>scripts/main.js"></script>
         <!-- endbuild -->
 
         <!-- build:js(.tmp) scripts/coffee.js -->
-        <script src="scripts/hello.js"></script>
+        <script src="<%= @item[:level] %>scripts/hello.js"></script>
         <!-- endbuild -->
 
         <!-- build:js scripts/plugins.js -->
-        <script src="bower_components/sass-bootstrap/js/affix.js"></script>
-        <script src="bower_components/sass-bootstrap/js/alert.js"></script>
-        <script src="bower_components/sass-bootstrap/js/dropdown.js"></script>
-        <script src="bower_components/sass-bootstrap/js/tooltip.js"></script>
-        <script src="bower_components/sass-bootstrap/js/modal.js"></script>
-        <script src="bower_components/sass-bootstrap/js/transition.js"></script>
-        <script src="bower_components/sass-bootstrap/js/button.js"></script>
-        <script src="bower_components/sass-bootstrap/js/popover.js"></script>
-        <script src="bower_components/sass-bootstrap/js/carousel.js"></script>
-        <script src="bower_components/sass-bootstrap/js/scrollspy.js"></script>
-        <script src="bower_components/sass-bootstrap/js/collapse.js"></script>
-        <script src="bower_components/sass-bootstrap/js/tab.js"></script>
+        <script src="<%= @item[:level] %>bower_components/sass-bootstrap/js/affix.js"></script>
+        <script src="<%= @item[:level] %>bower_components/sass-bootstrap/js/alert.js"></script>
+        <script src="<%= @item[:level] %>bower_components/sass-bootstrap/js/dropdown.js"></script>
+        <script src="<%= @item[:level] %>bower_components/sass-bootstrap/js/tooltip.js"></script>
+        <script src="<%= @item[:level] %>bower_components/sass-bootstrap/js/modal.js"></script>
+        <script src="<%= @item[:level] %>bower_components/sass-bootstrap/js/transition.js"></script>
+        <script src="<%= @item[:level] %>bower_components/sass-bootstrap/js/button.js"></script>
+        <script src="<%= @item[:level] %>bower_components/sass-bootstrap/js/popover.js"></script>
+        <script src="<%= @item[:level] %>bower_components/sass-bootstrap/js/carousel.js"></script>
+        <script src="<%= @item[:level] %>bower_components/sass-bootstrap/js/scrollspy.js"></script>
+        <script src="<%= @item[:level] %>bower_components/sass-bootstrap/js/collapse.js"></script>
+        <script src="<%= @item[:level] %>bower_components/sass-bootstrap/js/tab.js"></script>
         <!-- endbuild -->
 </body>
 </html>
