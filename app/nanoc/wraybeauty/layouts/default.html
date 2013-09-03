@@ -31,8 +31,8 @@
         <!-- Stylesheets -->
         <!-- ************************************************** -->
 
-        <!-- build:css(.tmp) styles/main.css -->
-        <link rel="stylesheet" type="text/css" href="styles/main.css" />
+        <!-- build:css(.tmp) <%= @item[:level] %>styles/main.css -->
+        <link rel="stylesheet" type="text/css" href="<%= @item[:level] %>styles/main.css" />
         <!-- endbuild -->
 
 
@@ -40,7 +40,7 @@
         <!-- JavaScript -->
         <!-- ************************************************** -->
 
-        <!-- build:js scripts/vendor/modernizr.js -->
+        <!-- build:js <%= @item[:level] %>scripts/vendor/modernizr.js -->
         <script src="<%= @item[:level] %>bower_components/modernizr/modernizr.js"></script>
         <!-- endbuild -->
 
@@ -120,7 +120,7 @@
           </div>
         </div>
 
-        <!-- build:js scripts/vendor.js -->
+        <!-- build:js <%= @item[:level] %>scripts/vendor.js -->
         <!-- bower:js -->
         <script src="<%= @item[:level] %>bower_components/jquery/jquery.js"></script>
         <!-- endbower -->
@@ -136,15 +136,15 @@
             ga('create','UA-XXXXX-X');ga('send','pageview');
         </script>
 
-        <!-- build:js scripts/main.js -->
+        <!-- build:js <%= @item[:level] %>scripts/main.js -->
         <script src="<%= @item[:level] %>scripts/main.js"></script>
         <!-- endbuild -->
 
-        <!-- build:js(.tmp) scripts/coffee.js -->
+        <!-- build:js(.tmp) <%= @item[:level] %>scripts/coffee.js -->
         <script src="<%= @item[:level] %>scripts/hello.js"></script>
         <!-- endbuild -->
 
-        <!-- build:js scripts/plugins.js -->
+        <!-- build:js <%= @item[:level] %>scripts/plugins.js -->
         <script src="<%= @item[:level] %>bower_components/sass-bootstrap/js/affix.js"></script>
         <script src="<%= @item[:level] %>bower_components/sass-bootstrap/js/alert.js"></script>
         <script src="<%= @item[:level] %>bower_components/sass-bootstrap/js/dropdown.js"></script>
