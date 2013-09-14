@@ -1,5 +1,4 @@
-{:	data{
-I"/:ET{:default{	:	lastI"Ý<!doctype html>
+{:	data{I"/:ET{:default{	:	lastI"á)<!doctype html>
 <!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
 <!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
 <!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
@@ -17,7 +16,7 @@ I"/:ET{:default{	:	lastI"Ý<!doctype html>
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <meta name="author" content="MFRWDesign" />
         <meta name="description" content="WrayBeauty: Your makeup will be perfect every time. Professional, beautiful, successful. Weddings, parties, private events. Find out what makes us different and better than the rest." />
-        <meta name="keywords" content="makeup artist, makeup, wedding makeup, wedding, professional makeup artist, cosmetologist, cosmetology, nina, nina wray, wray, wraybeauty, wray beauty, beauty" />
+        <meta name="keywords" content="makeup artist, makeup, wedding makeup, wedding, professional makeup artist, cosmetologist, cosmetology, nina, nina wray, wray, wraybeauty, wray beauty, beauty, headshots, actor makeup, actress makeup, performance makeup, headshot makeup, editorial, editorial makeup, Makeup New York, Makeup New Jersey, makeup lessons, personal shopper, makeup personal shopper" />
         <meta name="HandheldFriendly" content="True" />
         <meta name="MobileOptimized" content="320" />
         <meta name="distribution" content="global" />
@@ -90,7 +89,7 @@ I"/:ET{:default{	:	lastI"Ý<!doctype html>
               <li><a href="/wedding-makeup/">Wedding</a></li>
               <li><a href="/headshots-makeup/">Headshots</a></li>
               <li><a href="/other-services-makeup/">Other Services</a></li>
-              <li><a href="/the-complete-package-makeup/">The Complete Package</a></li>
+              <li><a href="/about-makeup-artist/">About</a></li>
             </ul>
           </div><!-- /.navbar-collapse -->
           </div>
@@ -104,24 +103,62 @@ I"/:ET{:default{	:	lastI"Ý<!doctype html>
 
         <div class="container">
           <div class="row">
-  <div class="col-xs-12">
-    <img class="img-responsive" src="images/comingsoon.jpg" alt="WrayBeauty.com Coming Soon" />
+  <div class="col-sm-8">
+    <a href="/about-makeup-artist/"><img class="img-responsive" src="images/wray-beauty-makeup-artist.jpg" alt="Wray Beauty Makeup Artist NY NJ Photo" /></a>
+  </div>
+  <div class="col-sm-4">
+    <a href="/wedding-makeup/"><img class="img-responsive" src="images/wedding-bride-makeup2.jpg" alt="Wray Beauty Wedding Bride Makeup Photo 2" /></a>
   </div>
 </div>
+<div class="row add-bottom-padding">
+  <div class="col-sm-4 col-xs-12">
+    <a href="/about-makeup-artist/"><img class="img-responsive" src="images/about-nina-wray-makeup-artist.jpg" alt="Nina Wray Makeup Artist Photo 1" /></a>
+  </div>
+  <div class="col-sm-8 col-xs-12">
+    <a href="/wedding-makeup/"><img class="img-responsive" src="images/wedding-flowers.jpg" alt="Wray Beauty Wedding Flowers Makeup Photo" /></a>
+  </div>
+</div>
+<div class="row">
+  <div class="col-sm-4 col-xs-6">
+    <a href="/headshots-makeup/"><img class="img-responsive" src="images/kg-jamie-evening-makeup2.jpg" alt="Wray Beauty KG Jamie Evening Makeup Photo 2" /></a>
+    <a href="/headshots-makeup/"><img class="img-responsive" src="images/kg-jillian-evening-makeup3.jpg" alt="Wray Beauty KG Jillian Evening Makeup Photo 3" /></a>
+  </div>
+  <div class="col-sm-4 col-xs-6">
+    <a href="/headshots-makeup/"><img class="img-responsive" src="images/kg-lily-natural-makeup2.jpg" alt="Wray Beauty KG Lily Natural Makeup Photo 2" /></a>
+    <a href="/headshots-makeup/"><img class="img-responsive" src="images/kg-sarah-natural-makeup4.jpg" alt="Wray Beauty KG Sarah Natural Makeup Photo 4" /></a>
+  </div>
+  <div class="col-sm-4 col-xs-0">
+    <a href="/other-services-makeup/"><img class="img-responsive" src="images/capezio-leotard-green.jpg" alt="Wray Beauty Capezio Leotard Green Photo" /></a>
+  </div>
+</div>
+
+<!-- <div class="row"> -->
+  <!-- <div class="col-xs-12"> -->
+    <!-- <img class="img-responsive" src="images/comingsoon.jpg" alt="WrayBeauty.com Coming Soon" /> -->
+  <!-- </div> -->
+<!-- </div> -->
         </div>
 
         <div class="container">
           <div class="footer">
-            <h3 id="contact">Contact</h3>
-            <p class="vcard">
-              <span class="email">
-                <a href="mailto:info@wraybeauty.com?subject=Hello There">info@wraybeauty.com</a>
-              </span>
-              <!-- <span class="tel"><a href="tel:+18888873334">+1-888-887-3334</a></span> -->
-              <span class="adr">
-                <span class="locality">Jersey City, NJ</span>, <span class="country-name">United States</span>
-              </span>
-            </p>
+            <div class="row">
+                <div class="col-sm-4">
+                    <a href="/"><img class="img-responsive" src="images/logo-nina-wray-white.jpg" alt="Wray Beauty Logo Nina Wray Makeup Artist" /></a>
+                    <a href="/"><img class="img-responsive" src="images/logo-nina-wray-black.jpg" alt="Wray Beauty Logo Nina Wray Makeup Artist" /></a>
+                </div>
+                <div class="col-sm-8">
+                    <h3 id="contact">Contact</h3>
+                    <p class="vcard">
+                      <span class="email">
+                        <a href="mailto:info@wraybeauty.com?subject=Hello There">info@wraybeauty.com</a>
+                      </span>
+                      <span class="tel"><a href="tel:+16463971853">+1-646-397-1853</a></span>
+                      <span class="adr">
+                        <span class="locality">Jersey City, NJ</span>, <span class="country-name">United States</span>
+                      </span>
+                    </p>
+                </div>
+            </div>
           </div>
         </div>
 
@@ -165,16 +202,76 @@ I"/:ET{:default{	:	lastI"Ý<!doctype html>
         <!-- endbuild -->
 </body>
 </html>
-;T:rawI"›<div class="row">
-  <div class="col-xs-12">
-    <img class="img-responsive" src="images/comingsoon.jpg" alt="WrayBeauty.com Coming Soon" />
+;T:rawI"|<div class="row">
+  <div class="col-sm-8">
+    <a href="/about-makeup-artist/"><img class="img-responsive" src="<%= @item[:level] %>images/wray-beauty-makeup-artist.jpg" alt="Wray Beauty Makeup Artist NY NJ Photo" /></a>
   </div>
-</div>;T:preI"›<div class="row">
-  <div class="col-xs-12">
-    <img class="img-responsive" src="images/comingsoon.jpg" alt="WrayBeauty.com Coming Soon" />
+  <div class="col-sm-4">
+    <a href="/wedding-makeup/"><img class="img-responsive" src="<%= @item[:level] %>images/wedding-bride-makeup2.jpg" alt="Wray Beauty Wedding Bride Makeup Photo 2" /></a>
   </div>
-</div>;T:	post@
-I"/wedding-makeup/;T{;{	;I"ž(<!doctype html>
+</div>
+<div class="row add-bottom-padding">
+  <div class="col-sm-4 col-xs-12">
+    <a href="/about-makeup-artist/"><img class="img-responsive" src="<%= @item[:level] %>images/about-nina-wray-makeup-artist.jpg" alt="Nina Wray Makeup Artist Photo 1" /></a>
+  </div>
+  <div class="col-sm-8 col-xs-12">
+    <a href="/wedding-makeup/"><img class="img-responsive" src="<%= @item[:level] %>images/wedding-flowers.jpg" alt="Wray Beauty Wedding Flowers Makeup Photo" /></a>
+  </div>
+</div>
+<div class="row">
+  <div class="col-sm-4 col-xs-6">
+    <a href="/headshots-makeup/"><img class="img-responsive" src="<%= @item[:level] %>images/kg-jamie-evening-makeup2.jpg" alt="Wray Beauty KG Jamie Evening Makeup Photo 2" /></a>
+    <a href="/headshots-makeup/"><img class="img-responsive" src="<%= @item[:level] %>images/kg-jillian-evening-makeup3.jpg" alt="Wray Beauty KG Jillian Evening Makeup Photo 3" /></a>
+  </div>
+  <div class="col-sm-4 col-xs-6">
+    <a href="/headshots-makeup/"><img class="img-responsive" src="<%= @item[:level] %>images/kg-lily-natural-makeup2.jpg" alt="Wray Beauty KG Lily Natural Makeup Photo 2" /></a>
+    <a href="/headshots-makeup/"><img class="img-responsive" src="<%= @item[:level] %>images/kg-sarah-natural-makeup4.jpg" alt="Wray Beauty KG Sarah Natural Makeup Photo 4" /></a>
+  </div>
+  <div class="col-sm-4 col-xs-0">
+    <a href="/other-services-makeup/"><img class="img-responsive" src="<%= @item[:level] %>images/capezio-leotard-green.jpg" alt="Wray Beauty Capezio Leotard Green Photo" /></a>
+  </div>
+</div>
+
+<!-- <div class="row"> -->
+  <!-- <div class="col-xs-12"> -->
+    <!-- <img class="img-responsive" src="images/comingsoon.jpg" alt="WrayBeauty.com Coming Soon" /> -->
+  <!-- </div> -->
+<!-- </div> -->;T:preI"È<div class="row">
+  <div class="col-sm-8">
+    <a href="/about-makeup-artist/"><img class="img-responsive" src="images/wray-beauty-makeup-artist.jpg" alt="Wray Beauty Makeup Artist NY NJ Photo" /></a>
+  </div>
+  <div class="col-sm-4">
+    <a href="/wedding-makeup/"><img class="img-responsive" src="images/wedding-bride-makeup2.jpg" alt="Wray Beauty Wedding Bride Makeup Photo 2" /></a>
+  </div>
+</div>
+<div class="row add-bottom-padding">
+  <div class="col-sm-4 col-xs-12">
+    <a href="/about-makeup-artist/"><img class="img-responsive" src="images/about-nina-wray-makeup-artist.jpg" alt="Nina Wray Makeup Artist Photo 1" /></a>
+  </div>
+  <div class="col-sm-8 col-xs-12">
+    <a href="/wedding-makeup/"><img class="img-responsive" src="images/wedding-flowers.jpg" alt="Wray Beauty Wedding Flowers Makeup Photo" /></a>
+  </div>
+</div>
+<div class="row">
+  <div class="col-sm-4 col-xs-6">
+    <a href="/headshots-makeup/"><img class="img-responsive" src="images/kg-jamie-evening-makeup2.jpg" alt="Wray Beauty KG Jamie Evening Makeup Photo 2" /></a>
+    <a href="/headshots-makeup/"><img class="img-responsive" src="images/kg-jillian-evening-makeup3.jpg" alt="Wray Beauty KG Jillian Evening Makeup Photo 3" /></a>
+  </div>
+  <div class="col-sm-4 col-xs-6">
+    <a href="/headshots-makeup/"><img class="img-responsive" src="images/kg-lily-natural-makeup2.jpg" alt="Wray Beauty KG Lily Natural Makeup Photo 2" /></a>
+    <a href="/headshots-makeup/"><img class="img-responsive" src="images/kg-sarah-natural-makeup4.jpg" alt="Wray Beauty KG Sarah Natural Makeup Photo 4" /></a>
+  </div>
+  <div class="col-sm-4 col-xs-0">
+    <a href="/other-services-makeup/"><img class="img-responsive" src="images/capezio-leotard-green.jpg" alt="Wray Beauty Capezio Leotard Green Photo" /></a>
+  </div>
+</div>
+
+<!-- <div class="row"> -->
+  <!-- <div class="col-xs-12"> -->
+    <!-- <img class="img-responsive" src="images/comingsoon.jpg" alt="WrayBeauty.com Coming Soon" /> -->
+  <!-- </div> -->
+<!-- </div> -->;T:	post@
+I"/wedding-makeup/;T{;{	;I"+<!doctype html>
 <!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
 <!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
 <!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
@@ -191,8 +288,8 @@ I"/wedding-makeup/;T{;{	;I"ž(<!doctype html>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <meta name="author" content="MFRWDesign" />
-        <meta name="description" content="WrayBeauty: Your makeup will be perfect every time. Professional, beautiful, successful. Weddings, parties, private events. Find out what makes us different and better than the rest." />
-        <meta name="keywords" content="makeup artist, makeup, wedding makeup, wedding, professional makeup artist, cosmetologist, cosmetology, nina, nina wray, wray, wraybeauty, wray beauty, beauty" />
+        <meta name="description" content="On your wedding day you want to look and feel your best. I pride myself in making your makeup application fun, supportive and professional. Youâ€™ll be picture perfect even when crying tears of joy." />
+        <meta name="keywords" content="makeup artist, makeup, wedding makeup, wedding, destination weddings, professional makeup artist, cosmetologist, cosmetology, nina, nina wray, wray, wraybeauty, wray beauty, beauty, bridal party, bridal makeup, brides, New York City, New Jersey" />
         <meta name="HandheldFriendly" content="True" />
         <meta name="MobileOptimized" content="320" />
         <meta name="distribution" content="global" />
@@ -265,7 +362,7 @@ I"/wedding-makeup/;T{;{	;I"ž(<!doctype html>
               <li><a href="#" class="active" title="You're here.">Wedding</a></li>
               <li><a href="/headshots-makeup/">Headshots</a></li>
               <li><a href="/other-services-makeup/">Other Services</a></li>
-              <li><a href="/the-complete-package-makeup/">The Complete Package</a></li>
+              <li><a href="/about-makeup-artist/">About</a></li>
             </ul>
           </div><!-- /.navbar-collapse -->
           </div>
@@ -327,16 +424,24 @@ I"/wedding-makeup/;T{;{	;I"ž(<!doctype html>
 
         <div class="container">
           <div class="footer">
-            <h3 id="contact">Contact</h3>
-            <p class="vcard">
-              <span class="email">
-                <a href="mailto:info@wraybeauty.com?subject=Hello There">info@wraybeauty.com</a>
-              </span>
-              <!-- <span class="tel"><a href="tel:+18888873334">+1-888-887-3334</a></span> -->
-              <span class="adr">
-                <span class="locality">Jersey City, NJ</span>, <span class="country-name">United States</span>
-              </span>
-            </p>
+            <div class="row">
+                <div class="col-sm-4">
+                    <a href="/"><img class="img-responsive" src="../images/logo-nina-wray-white.jpg" alt="Wray Beauty Logo Nina Wray Makeup Artist" /></a>
+                    <a href="/"><img class="img-responsive" src="../images/logo-nina-wray-black.jpg" alt="Wray Beauty Logo Nina Wray Makeup Artist" /></a>
+                </div>
+                <div class="col-sm-8">
+                    <h3 id="contact">Contact</h3>
+                    <p class="vcard">
+                      <span class="email">
+                        <a href="mailto:info@wraybeauty.com?subject=Hello There">info@wraybeauty.com</a>
+                      </span>
+                      <span class="tel"><a href="tel:+16463971853">+1-646-397-1853</a></span>
+                      <span class="adr">
+                        <span class="locality">Jersey City, NJ</span>, <span class="country-name">United States</span>
+                      </span>
+                    </p>
+                </div>
+            </div>
           </div>
         </div>
 
@@ -469,7 +574,7 @@ I"	<div class="row">
     </blockquote>
     <img class="img-responsive" src="../images/wedding-just-married.jpg" alt="Wedding Just Married Photo 4" />
   </div>
-</div>;T;@I"/headshots-makeup/;T{;{	;I"o(<!doctype html>
+</div>;T;@I"/headshots-makeup/;T{;{	;I"™+<!doctype html>
 <!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
 <!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
 <!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
@@ -486,8 +591,8 @@ I"	<div class="row">
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <meta name="author" content="MFRWDesign" />
-        <meta name="description" content="WrayBeauty: Your makeup will be perfect every time. Professional, beautiful, successful. Weddings, parties, private events. Find out what makes us different and better than the rest." />
-        <meta name="keywords" content="makeup artist, makeup, wedding makeup, wedding, professional makeup artist, cosmetologist, cosmetology, nina, nina wray, wray, wraybeauty, wray beauty, beauty" />
+        <meta name="description" content="From years of experience as an actor and makeup artist I know the importance of a great headshot. We will find the look that shows off everything that is great about you so you can work it in front of the camera and get that perfect shot." />
+        <meta name="keywords" content="makeup artist, makeup, professional makeup artist, cosmetologist, cosmetology, nina, nina wray, wray, wraybeauty, wray beauty, beauty, actor makeup, natural makeup, you on a good day, performance makeup, makeup lessons, actor identity, actor branding, actor headshots, headshots, headshot photography, headshot makeup, headshot makeup artist, male actor makeup, female actor makeup" />
         <meta name="HandheldFriendly" content="True" />
         <meta name="MobileOptimized" content="320" />
         <meta name="distribution" content="global" />
@@ -560,7 +665,7 @@ I"	<div class="row">
               <li><a href="/wedding-makeup/">Wedding</a></li>
               <li><a href="#" class="active" title="You're here.">Headshots</a></li>
               <li><a href="/other-services-makeup/">Other Services</a></li>
-              <li><a href="/the-complete-package-makeup/">The Complete Package</a></li>
+              <li><a href="/about-makeup-artist/">About</a></li>
             </ul>
           </div><!-- /.navbar-collapse -->
           </div>
@@ -620,16 +725,24 @@ I"	<div class="row">
 
         <div class="container">
           <div class="footer">
-            <h3 id="contact">Contact</h3>
-            <p class="vcard">
-              <span class="email">
-                <a href="mailto:info@wraybeauty.com?subject=Hello There">info@wraybeauty.com</a>
-              </span>
-              <!-- <span class="tel"><a href="tel:+18888873334">+1-888-887-3334</a></span> -->
-              <span class="adr">
-                <span class="locality">Jersey City, NJ</span>, <span class="country-name">United States</span>
-              </span>
-            </p>
+            <div class="row">
+                <div class="col-sm-4">
+                    <a href="/"><img class="img-responsive" src="../images/logo-nina-wray-white.jpg" alt="Wray Beauty Logo Nina Wray Makeup Artist" /></a>
+                    <a href="/"><img class="img-responsive" src="../images/logo-nina-wray-black.jpg" alt="Wray Beauty Logo Nina Wray Makeup Artist" /></a>
+                </div>
+                <div class="col-sm-8">
+                    <h3 id="contact">Contact</h3>
+                    <p class="vcard">
+                      <span class="email">
+                        <a href="mailto:info@wraybeauty.com?subject=Hello There">info@wraybeauty.com</a>
+                      </span>
+                      <span class="tel"><a href="tel:+16463971853">+1-646-397-1853</a></span>
+                      <span class="adr">
+                        <span class="locality">Jersey City, NJ</span>, <span class="country-name">United States</span>
+                      </span>
+                    </p>
+                </div>
+            </div>
           </div>
         </div>
 
@@ -758,7 +871,7 @@ I"Õ<div class="row">
     </blockquote>
     <img class="img-responsive" src="../images/capezio-beauty4.jpg" alt="Headshots Capezio Beauty Photo 4" />
   </div>
-</div>;T;@I"/other-services-makeup/;T{;{	;I"Ñ%<!doctype html>
+</div>;T;@I"/other-services-makeup/;T{;{	;I"÷/<!doctype html>
 <!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
 <!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
 <!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
@@ -775,8 +888,8 @@ I"Õ<div class="row">
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <meta name="author" content="MFRWDesign" />
-        <meta name="description" content="WrayBeauty: Your makeup will be perfect every time. Professional, beautiful, successful. Weddings, parties, private events. Find out what makes us different and better than the rest." />
-        <meta name="keywords" content="makeup artist, makeup, wedding makeup, wedding, professional makeup artist, cosmetologist, cosmetology, nina, nina wray, wray, wraybeauty, wray beauty, beauty" />
+        <meta name="description" content="Wray Beauty offers a range of services from makeup lessons to personal shopping, as well as services for professional fashion, runway and editorial photo shoots." />
+        <meta name="keywords" content="makeup artist, makeup, wedding makeup, wedding, professional makeup artist, cosmetologist, cosmetology, nina, nina wray, wray, wraybeauty, wray beauty, beauty, makeup lesson, makeup bag inspection, makeup personal shopping, the complete package, makeup classes, group makeup classes editorial makeup, studio makeup, fashion makeup, couture makeup, New York professional makeup artist, New Jersey Professional makeup artist" />
         <meta name="HandheldFriendly" content="True" />
         <meta name="MobileOptimized" content="320" />
         <meta name="distribution" content="global" />
@@ -849,7 +962,7 @@ I"Õ<div class="row">
               <li><a href="/wedding-makeup/">Wedding</a></li>
               <li><a href="/headshots-makeup/">Headshots</a></li>
               <li><a href="#" class="active" title="You're here.">Other Services</a></li>
-              <li><a href="/the-complete-package-makeup/">The Complete Package</a></li>
+              <li><a href="/about-makeup-artist/">About</a></li>
             </ul>
           </div><!-- /.navbar-collapse -->
           </div>
@@ -894,20 +1007,58 @@ I"Õ<div class="row">
     <img class="img-responsive" src="../images/kg-sarah-evening-makeup2.jpg" alt="Other Services KG Sarah Evening Makeup Photo 2" />
   </div>
 </div>
+
+<!-- <div class="row"> -->
+  <!-- <div class="col-xs-6"> -->
+    <!-- <img class="img-responsive" src="../images/capezio-halloween-green-witch1.jpg" alt="The Complete Package Capezio Halloween Green Witch Photo 1" /> -->
+  <!-- </div> -->
+  <!-- <div class="col-xs-6"> -->
+    <!-- <img class="img-responsive" src="../images/capezio-leotard-green.jpg" alt="The Complete Package Capezio Leotard Green Photo" /> -->
+  <!-- </div> -->
+<!-- </div> -->
+<div class="row">
+  <div class="col-xs-12">
+    <h3>The Complete Package</h3>
+  </div>
+</div>
+<div class="row">
+  <div class="col-xs-12">
+    <p>Ready for a day of beauty and fun? First weâ€™ll go through your makeup bag and toss whatever isnâ€™t working for you. Iâ€™ll fill you in on what colors and products work best for your skin tone and any skin conditions you have. From there weâ€™ll head out on a makeup shopping adventure (I can easily work within your budget). When weâ€™re finished your makeup bag will perfectly tailored to you. Next weâ€™ll head back and try it all out. You can choose to have a full application done by me with detailed instructions or I can apply makeup to half of your face and you can recreate the same look on the other side. </p>
+    <ul>
+      <li>$350. â€“ Full Day (about 6 hours but there is no time limit)</li>
+      <li>$400 â€“ Split days (You can choose to split up the service over two days. $200 is due on each day of service. Days so not need to be consecutive.)</li>
+    </ul>
+    <p>*Group rates are available. Feel free to <a href="#contact">contact</a> me for more information.</p>
+  </div>
+</div>
+
+<div class="row add-bottom-padding">
+  <div class="col-xs-12">
+    <img class="img-responsive" src="../images/capezio-halloween-red-devil.jpg" alt="The Complete Package Capezio Halloween Red Devil Photo" />
+  </div>
+</div>
         </div>
 
         <div class="container">
           <div class="footer">
-            <h3 id="contact">Contact</h3>
-            <p class="vcard">
-              <span class="email">
-                <a href="mailto:info@wraybeauty.com?subject=Hello There">info@wraybeauty.com</a>
-              </span>
-              <!-- <span class="tel"><a href="tel:+18888873334">+1-888-887-3334</a></span> -->
-              <span class="adr">
-                <span class="locality">Jersey City, NJ</span>, <span class="country-name">United States</span>
-              </span>
-            </p>
+            <div class="row">
+                <div class="col-sm-4">
+                    <a href="/"><img class="img-responsive" src="../images/logo-nina-wray-white.jpg" alt="Wray Beauty Logo Nina Wray Makeup Artist" /></a>
+                    <a href="/"><img class="img-responsive" src="../images/logo-nina-wray-black.jpg" alt="Wray Beauty Logo Nina Wray Makeup Artist" /></a>
+                </div>
+                <div class="col-sm-8">
+                    <h3 id="contact">Contact</h3>
+                    <p class="vcard">
+                      <span class="email">
+                        <a href="mailto:info@wraybeauty.com?subject=Hello There">info@wraybeauty.com</a>
+                      </span>
+                      <span class="tel"><a href="tel:+16463971853">+1-646-397-1853</a></span>
+                      <span class="adr">
+                        <span class="locality">Jersey City, NJ</span>, <span class="country-name">United States</span>
+                      </span>
+                    </p>
+                </div>
+            </div>
           </div>
         </div>
 
@@ -951,7 +1102,7 @@ I"Õ<div class="row">
         <!-- endbuild -->
 </body>
 </html>
-;T;	I"j<div class="row">
+;T;	I"½<div class="row">
   <div class="col-xs-12">
     <h1 class="no-top-margin">Other Services</h1>
   </div>
@@ -982,8 +1133,38 @@ I"Õ<div class="row">
   <div class="col-xs-12">
     <img class="img-responsive" src="<%= @item[:level] %>images/kg-sarah-evening-makeup2.jpg" alt="Other Services KG Sarah Evening Makeup Photo 2" />
   </div>
+</div>
+
+<!-- <div class="row"> -->
+  <!-- <div class="col-xs-6"> -->
+    <!-- <img class="img-responsive" src="<%= @item[:level] %>images/capezio-halloween-green-witch1.jpg" alt="The Complete Package Capezio Halloween Green Witch Photo 1" /> -->
+  <!-- </div> -->
+  <!-- <div class="col-xs-6"> -->
+    <!-- <img class="img-responsive" src="<%= @item[:level] %>images/capezio-leotard-green.jpg" alt="The Complete Package Capezio Leotard Green Photo" /> -->
+  <!-- </div> -->
+<!-- </div> -->
+<div class="row">
+  <div class="col-xs-12">
+    <h3>The Complete Package</h3>
+  </div>
+</div>
+<div class="row">
+  <div class="col-xs-12">
+    <p>Ready for a day of beauty and fun? First weâ€™ll go through your makeup bag and toss whatever isnâ€™t working for you. Iâ€™ll fill you in on what colors and products work best for your skin tone and any skin conditions you have. From there weâ€™ll head out on a makeup shopping adventure (I can easily work within your budget). When weâ€™re finished your makeup bag will perfectly tailored to you. Next weâ€™ll head back and try it all out. You can choose to have a full application done by me with detailed instructions or I can apply makeup to half of your face and you can recreate the same look on the other side. </p>
+    <ul>
+      <li>$350. â€“ Full Day (about 6 hours but there is no time limit)</li>
+      <li>$400 â€“ Split days (You can choose to split up the service over two days. $200 is due on each day of service. Days so not need to be consecutive.)</li>
+    </ul>
+    <p>*Group rates are available. Feel free to <a href="#contact">contact</a> me for more information.</p>
+  </div>
+</div>
+
+<div class="row add-bottom-padding">
+  <div class="col-xs-12">
+    <img class="img-responsive" src="<%= @item[:level] %>images/capezio-halloween-red-devil.jpg" alt="The Complete Package Capezio Halloween Red Devil Photo" />
+  </div>
 </div>;T;
-I"7<div class="row">
+I"W<div class="row">
   <div class="col-xs-12">
     <h1 class="no-top-margin">Other Services</h1>
   </div>
@@ -1014,7 +1195,37 @@ I"7<div class="row">
   <div class="col-xs-12">
     <img class="img-responsive" src="../images/kg-sarah-evening-makeup2.jpg" alt="Other Services KG Sarah Evening Makeup Photo 2" />
   </div>
-</div>;T;@I""/the-complete-package-makeup/;T{;{	;I"ã&<!doctype html>
+</div>
+
+<!-- <div class="row"> -->
+  <!-- <div class="col-xs-6"> -->
+    <!-- <img class="img-responsive" src="../images/capezio-halloween-green-witch1.jpg" alt="The Complete Package Capezio Halloween Green Witch Photo 1" /> -->
+  <!-- </div> -->
+  <!-- <div class="col-xs-6"> -->
+    <!-- <img class="img-responsive" src="../images/capezio-leotard-green.jpg" alt="The Complete Package Capezio Leotard Green Photo" /> -->
+  <!-- </div> -->
+<!-- </div> -->
+<div class="row">
+  <div class="col-xs-12">
+    <h3>The Complete Package</h3>
+  </div>
+</div>
+<div class="row">
+  <div class="col-xs-12">
+    <p>Ready for a day of beauty and fun? First weâ€™ll go through your makeup bag and toss whatever isnâ€™t working for you. Iâ€™ll fill you in on what colors and products work best for your skin tone and any skin conditions you have. From there weâ€™ll head out on a makeup shopping adventure (I can easily work within your budget). When weâ€™re finished your makeup bag will perfectly tailored to you. Next weâ€™ll head back and try it all out. You can choose to have a full application done by me with detailed instructions or I can apply makeup to half of your face and you can recreate the same look on the other side. </p>
+    <ul>
+      <li>$350. â€“ Full Day (about 6 hours but there is no time limit)</li>
+      <li>$400 â€“ Split days (You can choose to split up the service over two days. $200 is due on each day of service. Days so not need to be consecutive.)</li>
+    </ul>
+    <p>*Group rates are available. Feel free to <a href="#contact">contact</a> me for more information.</p>
+  </div>
+</div>
+
+<div class="row add-bottom-padding">
+  <div class="col-xs-12">
+    <img class="img-responsive" src="../images/capezio-halloween-red-devil.jpg" alt="The Complete Package Capezio Halloween Red Devil Photo" />
+  </div>
+</div>;T;@I""/the-complete-package-makeup/;T{;{	;I"»&<!doctype html>
 <!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
 <!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
 <!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
@@ -1105,7 +1316,7 @@ I"7<div class="row">
               <li><a href="/wedding-makeup/">Wedding</a></li>
               <li><a href="/headshots-makeup/">Headshots</a></li>
               <li><a href="/other-services-makeup/">Other Services</a></li>
-              <li><a href="#" class="active" title="You're here.">The Complete Package</a></li>
+              <li><a href="/about-makeup-artist/">About</a></li>
             </ul>
           </div><!-- /.navbar-collapse -->
           </div>
@@ -1161,7 +1372,7 @@ I"7<div class="row">
               <span class="email">
                 <a href="mailto:info@wraybeauty.com?subject=Hello There">info@wraybeauty.com</a>
               </span>
-              <!-- <span class="tel"><a href="tel:+18888873334">+1-888-887-3334</a></span> -->
+              <span class="tel"><a href="tel:+16463971853">+1-646-397-1853</a></span>
               <span class="adr">
                 <span class="locality">Jersey City, NJ</span>, <span class="country-name">United States</span>
               </span>
@@ -1276,4 +1487,265 @@ I"I<div class="row">
   <div class="col-xs-12">
     <img class="img-responsive" src="../images/capezio-halloween-red-devil.jpg" alt="The Complete Package Capezio Halloween Red Devil Photo" />
   </div>
-</div>;T;@":versioni
+</div>;T;@"I"/about-makeup-artist/;T{;{	;I"ð)<!doctype html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+    <head>
+        <title>WrayBeauty - About</title>
+
+
+        <!-- ************************************************** -->
+        <!-- Meta Tags etc -->
+        <!-- ************************************************** -->
+        <meta charset="utf-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta name="author" content="MFRWDesign" />
+        <meta name="description" content="I am warm, friendly and genuinely excited about each one of my clients. Whether you want to feel fabulous for a night out, create a time efficient look for your workday, or want the look that is going to give you the perfect pictures, Wray Beauty can help." />
+        <meta name="keywords" content="makeup artist, makeup, wedding makeup, wedding, professional makeup artist, cosmetologist, cosmetology, nina, nina wray, wray, wraybeauty, wray beauty, beauty, headshots, actor makeup, actress makeup, performance makeup, headshot makeup, editorial, editorial makeup, Makeup New York, Makeup New Jersey, makeup lessons, personal shopper, makeup personal shopper" />
+        <meta name="HandheldFriendly" content="True" />
+        <meta name="MobileOptimized" content="320" />
+        <meta name="distribution" content="global" />
+        <meta name="robots" content="index,follow" />
+        <meta name="publisher" content="Published by MFRWDesign" />
+        <meta http-equiv="cleartype" content="on" />
+        <!-- TODO: Change href in below rss xml link to correct URL -->
+        <link rel="alternate" type="application/rss+xml" title="WrayBeauty RSS feed" href="http://wraybeauty.com/index.xml" />
+
+
+        <!-- ************************************************** -->
+        <!-- Stylesheets -->
+        <!-- ************************************************** -->
+
+        <!-- build:css(.tmp) ../styles/main.css -->
+        <link rel="stylesheet" type="text/css" href="../styles/main.css" />
+        <!-- endbuild -->
+
+
+        <!-- ************************************************** -->
+        <!-- JavaScript -->
+        <!-- ************************************************** -->
+
+        <!-- build:js ../scripts/vendor/modernizr.js -->
+        <script src="../bower_components/modernizr/modernizr.js"></script>
+        <!-- endbuild -->
+
+        <!-- TODO: Add in selectivizr or similar to support IE7&8 -->
+
+
+        <!-- ************************************************** -->
+        <!-- Icons -->
+        <!-- ************************************************** -->
+
+        <!-- TODO: Place favicon.ico and apple-touch-icon.png in the root directory -->
+        <!-- 16x16 -->
+        <link rel="shortcut icon" href="../favicon.ico">
+        <!-- 32x32 -->
+        <!-- <link rel="shortcut icon" href="../images/favicon.png"> -->
+
+        <!-- iOS apple-touch-icons -->
+        <!-- <link rel="apple-touch-icon-precomposed" sizes="144x144" href="../images/touch/apple-touch-icon-144x144-precomposed.png"> -->
+        <!-- <link rel="apple-touch-icon-precomposed" sizes="114x114" href="../images/touch/apple-touch-icon-114x114-precomposed.png"> -->
+        <!-- <link rel="apple-touch-icon-precomposed" sizes="72x72" href="../images/touch/apple-touch-icon-72x72-precomposed.png"> -->
+        <!-- <link rel="apple-touch-icon-precomposed" href="../images/touch/apple-touch-icon-57x57-precomposed.png"> -->
+        <!-- <link rel="shortcut icon" href="../images/touch/apple-touch-icon.png"> -->
+
+        <!-- Tile icon for Win8 (144x144 + tile color) -->
+        <!-- <meta name="msapplication-TileImage" content="../images/touch/apple-touch-icon-144x144-precomposed.png"> -->
+        <!-- <meta name="msapplication-TileColor" content="#010075"> -->
+    </head>
+    <body>
+
+        <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
+          <div class="container">
+          <!-- Brand and toggle get grouped for better mobile display -->
+          <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
+              <span class="sr-only">Menu</span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="/">WrayBeauty</a>
+          </div>
+          <!-- Collect the nav links, forms, and other content for toggling -->
+          <div class="collapse navbar-collapse navbar-ex1-collapse">
+            <ul class="nav navbar-nav navbar-right">
+              <li><a href="/">Home</a></li>
+              <li><a href="/wedding-makeup/">Wedding</a></li>
+              <li><a href="/headshots-makeup/">Headshots</a></li>
+              <li><a href="/other-services-makeup/">Other Services</a></li>
+              <li><a href="#" class="active" title="You're here.">About</a></li>
+            </ul>
+          </div><!-- /.navbar-collapse -->
+          </div>
+        </nav>
+
+
+        <!--[if lt IE 10]>
+            <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+        <![endif]-->
+
+
+        <div class="container">
+          <div class="row">
+  <div class="col-xs-12">
+    <h1 class="no-top-margin">About</h1>
+  </div>
+</div>
+<div class="row">
+  <div class="col-xs-6">
+    <img class="img-responsive" src="../images/about-nina-wray-makeup-artist.jpg" alt="Nina Wray Makeup Artist Photo 1" />
+  </div>
+  <div class="col-xs-6">
+    <img class="img-responsive" src="../images/wedding-makeup-artist1.jpg" alt="Nina Wray Makeup Artist Photo 2" />
+  </div>
+</div>
+<div class="row">
+  <div class="col-xs-12">
+    <h3>Making Beauty and Confidence Your Reality</h3>
+  </div>
+</div>
+<div class="row">
+  <div class="col-xs-12">
+    <p>Wray Beauty technically began when I was a teenager experimenting with makeup in front of my bedroom mirror. It has since become a dream career of helping others achieve the skills and confidence to look and feel their best.</p>
+    <p>Iâ€™m still consistently trying new products (much to the dismay of my over-packed shelves) and talking about the best ones with whoever wants to listen. Iâ€™ve combined my love of makeup and the art of application with my passion for people and creating a fun, comfortable atmosphere.  My favorite part of the job is not only helping you look your best, but also teaching how you can do this for yourself on a daily basis.</p>
+    <p>Iâ€™m warm, friendly and genuinely excited about each one of my clients. Whether you want to feel fabulous for a night out, create a time efficient routine for your workday, or want the look thatâ€™s going to give you the perfect pictures; Wray Beauty can help.  As a bonus youâ€™re guaranteed to have a lot of fun in the process.</p>
+  </div>
+</div>
+
+<div class="row add-bottom-padding">
+  <div class="col-xs-12">
+    <!-- <img class="img-responsive" src="../images/capezio-halloween-red-devil.jpg" alt="The Complete Package Capezio Halloween Red Devil Photo" /> -->
+  </div>
+</div>
+        </div>
+
+        <div class="container">
+          <div class="footer">
+            <div class="row">
+                <div class="col-sm-4">
+                    <a href="/"><img class="img-responsive" src="../images/logo-nina-wray-white.jpg" alt="Wray Beauty Logo Nina Wray Makeup Artist" /></a>
+                    <a href="/"><img class="img-responsive" src="../images/logo-nina-wray-black.jpg" alt="Wray Beauty Logo Nina Wray Makeup Artist" /></a>
+                </div>
+                <div class="col-sm-8">
+                    <h3 id="contact">Contact</h3>
+                    <p class="vcard">
+                      <span class="email">
+                        <a href="mailto:info@wraybeauty.com?subject=Hello There">info@wraybeauty.com</a>
+                      </span>
+                      <span class="tel"><a href="tel:+16463971853">+1-646-397-1853</a></span>
+                      <span class="adr">
+                        <span class="locality">Jersey City, NJ</span>, <span class="country-name">United States</span>
+                      </span>
+                    </p>
+                </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- build:js ../scripts/vendor.js -->
+        <!-- bower:js -->
+        <script src="../bower_components/jquery/jquery.js"></script>
+        <!-- endbower -->
+        <!-- endbuild -->
+
+        <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
+        <script>
+            (function(b,o,i,l,e,r){b.GoogleAnalyticsObject=l;b[l]||(b[l]=
+            function(){(b[l].q=b[l].q||[]).push(arguments)});b[l].l=+new Date;
+            e=o.createElement(i);r=o.getElementsByTagName(i)[0];
+            e.src='//www.google-analytics.com/analytics.js';
+            r.parentNode.insertBefore(e,r)}(window,document,'script','ga'));
+            ga('create','UA-XXXXX-X');ga('send','pageview');
+        </script>
+
+        <!-- build:js ../scripts/main.js -->
+        <script src="../scripts/main.js"></script>
+        <!-- endbuild -->
+
+        <!-- build:js(.tmp) ../scripts/coffee.js -->
+        <script src="../scripts/hello.js"></script>
+        <!-- endbuild -->
+
+        <!-- build:js ../scripts/plugins.js -->
+        <script src="../bower_components/sass-bootstrap/js/affix.js"></script>
+        <script src="../bower_components/sass-bootstrap/js/alert.js"></script>
+        <script src="../bower_components/sass-bootstrap/js/dropdown.js"></script>
+        <script src="../bower_components/sass-bootstrap/js/tooltip.js"></script>
+        <script src="../bower_components/sass-bootstrap/js/modal.js"></script>
+        <script src="../bower_components/sass-bootstrap/js/transition.js"></script>
+        <script src="../bower_components/sass-bootstrap/js/button.js"></script>
+        <script src="../bower_components/sass-bootstrap/js/popover.js"></script>
+        <script src="../bower_components/sass-bootstrap/js/carousel.js"></script>
+        <script src="../bower_components/sass-bootstrap/js/scrollspy.js"></script>
+        <script src="../bower_components/sass-bootstrap/js/collapse.js"></script>
+        <script src="../bower_components/sass-bootstrap/js/tab.js"></script>
+        <!-- endbuild -->
+</body>
+</html>
+;T;	I"p<div class="row">
+  <div class="col-xs-12">
+    <h1 class="no-top-margin">About</h1>
+  </div>
+</div>
+<div class="row">
+  <div class="col-xs-6">
+    <img class="img-responsive" src="<%= @item[:level] %>images/about-nina-wray-makeup-artist.jpg" alt="Nina Wray Makeup Artist Photo 1" />
+  </div>
+  <div class="col-xs-6">
+    <img class="img-responsive" src="<%= @item[:level] %>images/wedding-makeup-artist1.jpg" alt="Nina Wray Makeup Artist Photo 2" />
+  </div>
+</div>
+<div class="row">
+  <div class="col-xs-12">
+    <h3>Making Beauty and Confidence Your Reality</h3>
+  </div>
+</div>
+<div class="row">
+  <div class="col-xs-12">
+    <p>Wray Beauty technically began when I was a teenager experimenting with makeup in front of my bedroom mirror. It has since become a dream career of helping others achieve the skills and confidence to look and feel their best.</p>
+    <p>Iâ€™m still consistently trying new products (much to the dismay of my over-packed shelves) and talking about the best ones with whoever wants to listen. Iâ€™ve combined my love of makeup and the art of application with my passion for people and creating a fun, comfortable atmosphere.  My favorite part of the job is not only helping you look your best, but also teaching how you can do this for yourself on a daily basis.</p>
+    <p>Iâ€™m warm, friendly and genuinely excited about each one of my clients. Whether you want to feel fabulous for a night out, create a time efficient routine for your workday, or want the look thatâ€™s going to give you the perfect pictures; Wray Beauty can help.  As a bonus youâ€™re guaranteed to have a lot of fun in the process.</p>
+  </div>
+</div>
+
+<div class="row add-bottom-padding">
+  <div class="col-xs-12">
+    <!-- <img class="img-responsive" src="<%= @item[:level] %>images/capezio-halloween-red-devil.jpg" alt="The Complete Package Capezio Halloween Red Devil Photo" /> -->
+  </div>
+</div>;T;
+I"=<div class="row">
+  <div class="col-xs-12">
+    <h1 class="no-top-margin">About</h1>
+  </div>
+</div>
+<div class="row">
+  <div class="col-xs-6">
+    <img class="img-responsive" src="../images/about-nina-wray-makeup-artist.jpg" alt="Nina Wray Makeup Artist Photo 1" />
+  </div>
+  <div class="col-xs-6">
+    <img class="img-responsive" src="../images/wedding-makeup-artist1.jpg" alt="Nina Wray Makeup Artist Photo 2" />
+  </div>
+</div>
+<div class="row">
+  <div class="col-xs-12">
+    <h3>Making Beauty and Confidence Your Reality</h3>
+  </div>
+</div>
+<div class="row">
+  <div class="col-xs-12">
+    <p>Wray Beauty technically began when I was a teenager experimenting with makeup in front of my bedroom mirror. It has since become a dream career of helping others achieve the skills and confidence to look and feel their best.</p>
+    <p>Iâ€™m still consistently trying new products (much to the dismay of my over-packed shelves) and talking about the best ones with whoever wants to listen. Iâ€™ve combined my love of makeup and the art of application with my passion for people and creating a fun, comfortable atmosphere.  My favorite part of the job is not only helping you look your best, but also teaching how you can do this for yourself on a daily basis.</p>
+    <p>Iâ€™m warm, friendly and genuinely excited about each one of my clients. Whether you want to feel fabulous for a night out, create a time efficient routine for your workday, or want the look thatâ€™s going to give you the perfect pictures; Wray Beauty can help.  As a bonus youâ€™re guaranteed to have a lot of fun in the process.</p>
+  </div>
+</div>
+
+<div class="row add-bottom-padding">
+  <div class="col-xs-12">
+    <!-- <img class="img-responsive" src="../images/capezio-halloween-red-devil.jpg" alt="The Complete Package Capezio Halloween Red Devil Photo" /> -->
+  </div>
+</div>;T;@(:versioni

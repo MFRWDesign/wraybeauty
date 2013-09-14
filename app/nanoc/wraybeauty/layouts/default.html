@@ -89,7 +89,7 @@
               <li><%= link_to_unless_current_active('Wedding', '/wedding-makeup/') %></li>
               <li><%= link_to_unless_current_active('Headshots', '/headshots-makeup/') %></li>
               <li><%= link_to_unless_current_active('Other Services', '/other-services-makeup/') %></li>
-              <li><%= link_to_unless_current_active('The Complete Package', '/the-complete-package-makeup/') %></li>
+              <li><%= link_to_unless_current_active('About', '/about-makeup-artist/') %></li>
             </ul>
           </div><!-- /.navbar-collapse -->
           </div>
@@ -107,16 +107,24 @@
 
         <div class="container">
           <div class="footer">
-            <h3 id="contact">Contact</h3>
-            <p class="vcard">
-              <span class="email">
-                <a href="mailto:<%= @site.config[:email] %>?subject=Hello There"><%= @site.config[:email] %></a>
-              </span>
-              <!-- <span class="tel"><a href="tel:<%= @site.config[:phonelink] %>"><%= @site.config[:phone] %></a></span> -->
-              <span class="adr">
-                <span class="locality"><%= @site.config[:city] %></span>, <span class="country-name"><%= @site.config[:country] %></span>
-              </span>
-            </p>
+            <div class="row">
+                <div class="col-sm-4">
+                    <a href="/"><img class="img-responsive" src="<%= @item[:level] %>images/logo-nina-wray-white.jpg" alt="Wray Beauty Logo Nina Wray Makeup Artist" /></a>
+                    <a href="/"><img class="img-responsive" src="<%= @item[:level] %>images/logo-nina-wray-black.jpg" alt="Wray Beauty Logo Nina Wray Makeup Artist" /></a>
+                </div>
+                <div class="col-sm-8">
+                    <h3 id="contact">Contact</h3>
+                    <p class="vcard">
+                      <span class="email">
+                        <a href="mailto:<%= @site.config[:email] %>?subject=Hello There"><%= @site.config[:email] %></a>
+                      </span>
+                      <span class="tel"><a href="tel:<%= @site.config[:phonelink] %>"><%= @site.config[:phone] %></a></span>
+                      <span class="adr">
+                        <span class="locality"><%= @site.config[:city] %></span>, <span class="country-name"><%= @site.config[:country] %></span>
+                      </span>
+                    </p>
+                </div>
+            </div>
           </div>
         </div>
 
