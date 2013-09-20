@@ -90,6 +90,7 @@
               <li><%= link_to_unless_current_active('Headshots', '/headshots-makeup/') %></li>
               <li><%= link_to_unless_current_active('Other Services', '/other-services-makeup/') %></li>
               <li><%= link_to_unless_current_active('About', '/about-makeup-artist/') %></li>
+              <li><%= link_to_unless_current_active('Contact', '/contact-makeup-artist/') %></li>
             </ul>
           </div><!-- /.navbar-collapse -->
           </div>
@@ -119,8 +120,9 @@
                         <a href="mailto:<%= @site.config[:email] %>?subject=Hello There"><%= @site.config[:email] %></a>
                       </span>
                       <span class="tel"><a href="tel:<%= @site.config[:phonelink] %>"><%= @site.config[:phone] %></a></span>
+                      <br />
                       <span class="adr">
-                        <span class="locality"><%= @site.config[:city] %></span>, <span class="country-name"><%= @site.config[:country] %></span>
+                        <span class="locality"><%= @site.config[:city] %></span><!-- , <span class="country-name"><%= @site.config[:country] %></span> -->
                       </span>
                     </p>
                 </div>

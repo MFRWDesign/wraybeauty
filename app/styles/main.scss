@@ -1,3 +1,4 @@
+@import "compass/css3/box-shadow";
 $icon-font-path: "/bower_components/sass-bootstrap/fonts/";
 $custom-font-path: "fonts/";
 
@@ -17,6 +18,22 @@ $font-family-sans-serif:  'Avant Garde', "Univers", "Helvetica Neue", Helvetica,
 $font-family-serif:       "Century School Book", Georgia, "Times New Roman", Times, serif;
 
 @import 'sass-bootstrap/lib/bootstrap';
+
+.photograph {
+    padding: 7px;
+    border: 2px solid darken($gray-lighter, 5%);
+    box-shadow: 3px 3px 7px $gray;
+    @include rotate(-5deg);
+}
+
+.photograph2 {
+    padding: 7px;
+    background: #FFF;
+    border: 2px solid darken($gray-lighter, 5%);
+    // box-shadow: 3px 3px 3px $gray-light, -3px 3px 3px $gray-light, 3px -3px 3px $gray-light, -3px -3px 3px $gray-light;
+    box-shadow: 3px 3px 7px $gray;
+    @include rotate(14deg);
+}
 
 .browsehappy {
     margin: 0.2em 0;
