@@ -1,0 +1,1 @@
+!function(a){a(function(){a("#myCarousel").carousel({interval:1e4}),console.log("Initialized Carousel with 2 second interval:"),console.log("[  $('#myCarousel').carousel({ interval: 2000 });  ]")})}(window.jQuery);
