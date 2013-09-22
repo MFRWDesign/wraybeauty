@@ -1,4 +1,4 @@
-{:	data{I"/:ET{:default{	:	lastI"≤,<!doctype html>
+{:	data{I"/:ET{:default{	:	lastI""1<!doctype html>
 <!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
 <!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
 <!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
@@ -103,70 +103,89 @@
 
 
         <div class="container">
-          <div class="row">
-  <div class="col-sm-8">
-    <a href="/about-makeup-artist/"><img class="img-responsive" src="images/Makeup-Artistry.jpg" alt="Makeup Artistry by Ally Mauro" /></a>
-  </div>
-  <div class="col-sm-4">
-    <a href="/wedding-makeup/"><img class="img-responsive" src="images/wedding-bride-makeup2.jpg" alt="Wray Beauty Wedding Bride Makeup Photo 2" /></a>
-  </div>
-</div>
-<div class="row add-bottom-padding">
-  <div class="col-sm-4 col-xs-12">
-    <div class="row add-bottom-padding">
+          <!-- Carousel
+================================================== -->
+<div id="myCarousel" class="carousel slide">
+  <!-- Indicators -->
+  <ol class="carousel-indicators">
+    <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+    <li data-target="#myCarousel" data-slide-to="1"></li>
+    <li data-target="#myCarousel" data-slide-to="2"></li>
+    <li data-target="#myCarousel" data-slide-to="3"></li>
+    <li data-target="#myCarousel" data-slide-to="4"></li>
+  </ol>
+  <!-- Wrapper for slides -->
+  <div class="carousel-inner">
+    <div class="item active">
+      <a href="/wedding-makeup/">
+        <img class="img-responsive" src="images/wedding-flowers.jpg" alt="Wray Beauty Wedding Flowers Makeup Photo" />
+        <div class="container">
+          <div class="carousel-caption">
+            <h1 class="carousel">Wedding</h1>
+            <!-- <p class="lead">On your wedding day you want to look and feel your best. I pride myself in making your makeup application fun, supportive and professional. You‚Äôll be picture perfect even when crying tears of joy.</p> -->
+          </div>
+        </div>
+      </a>
+    </div>
+    <div class="item">
+      <a href="/headshots-makeup/">
+        <img src="images/Headshots-Makeup-Faces.jpg" alt="Wray Beauty Headshots Makeup Faces Image" />
+        <div class="container">
+          <div class="carousel-caption">
+            <h1 class="carousel">Headshots</h1>
+            <!-- <p class="lead">From years of experience as an actor and makeup artist I know the importance of a great headshot. We will find the look that shows off everything that is great about you so you can work it in front of the camera and get that perfect shot.</p> -->
+          </div>
+        </div>
+      </a>
+    </div>
+    <div class="item">
+      <a href="/other-services-makeup/">
+        <img src="images/Makeup-Table-Pencils-Blush.jpg" alt="Wray Beauty Makeup Table Pencils Blush Image" />
+        <div class="container">
+          <div class="carousel-caption">
+            <h1 class="carousel">Other Services</h1>
+            <!-- <p class="lead">Wray Beauty offers a range of services from makeup lessons to personal shopping, as well as services for professional fashion, runway and editorial photo shoots.</p> -->
+          </div>
+        </div>
+      </a>
+    </div>
+    <div class="item">
       <a href="/about-makeup-artist/">
-        <img class="img-responsive" src="images/logo-nina-wray-white.jpg" alt="Wray Beauty Logo Nina Wray Makeup Artist" />
-        <img class="img-responsive" src="images/logo-nina-wray-black.jpg" alt="Wray Beauty Logo Nina Wray Makeup Artist" />
+        <img src="images/Makeup-Artistry.jpg" alt="Makeup Artistry by Ally Mauro" />
+        <div class="container">
+          <div class="carousel-caption">
+            <h1 class="carousel">About Us</h1>
+            <!-- <p class="lead">I am warm, friendly and genuinely excited about each one of my clients. Whether you want to feel fabulous for a night out, create a time efficient look for your workday, or want the look that is going to give you the perfect pictures, Wray Beauty can help.</p> -->
+          </div>
+        </div>
       </a>
     </div>
-    <div class="row">
+    <div class="item">
       <a href="/contact-makeup-artist/">
-        <img class="img-responsive" src="images/Brushes.jpg" alt="Not Cleaning Makeup Applicators by UrbaneWomenMag" />
+        <img src="images/Blush-Palette.jpg" alt="Untitled by huangjiahui" />
+        <div class="container">
+          <div class="carousel-caption">
+            <h1 class="carousel">Get In Touch</h1>
+            <!-- <p class="lead">Interested in finding out more? Want to schedule an appointment? Find all our contact information right here: Phone, Email, and a Convenient Contact Form.</p> -->
+          </div>
+        </div>
       </a>
     </div>
   </div>
-  <div class="col-sm-8 col-xs-12">
-    <a href="/wedding-makeup/"><img class="img-responsive" src="images/wedding-flowers.jpg" alt="Wray Beauty Wedding Flowers Makeup Photo" /></a>
-  </div>
-</div>
-<div class="row">
-  <div class="col-sm-4 col-xs-6">
-    <a href="/headshots-makeup/"><img class="img-responsive" src="images/kg-jamie-evening-makeup2.jpg" alt="Wray Beauty KG Jamie Evening Makeup Photo 2" /></a>
-    <a href="/headshots-makeup/"><img class="img-responsive" src="images/kg-jillian-evening-makeup3.jpg" alt="Wray Beauty KG Jillian Evening Makeup Photo 3" /></a>
-  </div>
-  <div class="col-sm-4 col-xs-6">
-    <a href="/headshots-makeup/"><img class="img-responsive" src="images/kg-lily-natural-makeup2.jpg" alt="Wray Beauty KG Lily Natural Makeup Photo 2" /></a>
-    <a href="/headshots-makeup/"><img class="img-responsive" src="images/kg-sarah-natural-makeup4.jpg" alt="Wray Beauty KG Sarah Natural Makeup Photo 4" /></a>
-  </div>
-  <div class="col-sm-4 col-xs-0">
-    <div class="row">
-      <a href="/other-services-makeup/">
-        <img class="img-responsive" src="images/Blush-Palette.jpg" alt="Untitled by huangjiahui" />
-      </a>
-    </div>
-    <div class="row">
-      <a href="/other-services-makeup/">
-        <img class="img-responsive" src="images/Makeup-Table.jpg" alt="Makeup Sharing by UrbaneWomenMag" />
-      </a>
-    </div>
-  </div>
-</div>
-
-<!-- <div class="row"> -->
-  <!-- <div class="col-xs-12"> -->
-    <!-- <img class="img-responsive" src="images/comingsoon.jpg" alt="WrayBeauty.com Coming Soon" /> -->
-  <!-- </div> -->
-<!-- </div> -->
+  <!-- Controls -->
+  <a class="left carousel-control" href="#myCarousel" data-slide="prev">&lsaquo;</a>
+  <a class="right carousel-control" href="#myCarousel" data-slide="next">&rsaquo;</a>
+</div><!-- /.carousel -->
         </div>
 
         <div class="container">
           <div class="footer">
             <div class="row">
-                <div class="col-sm-4">
-                    <a href="/"><img class="img-responsive" src="images/logo-nina-wray-white.jpg" alt="Wray Beauty Logo Nina Wray Makeup Artist" /></a>
-                    <a href="/"><img class="img-responsive" src="images/logo-nina-wray-black.jpg" alt="Wray Beauty Logo Nina Wray Makeup Artist" /></a>
-                </div>
-                <div class="col-sm-8">
+                <!-- <div class="col-sm-4"> -->
+                    <!-- <a href="/"><img class="img-responsive" src="images/logo-nina-wray-white.jpg" alt="Wray Beauty Logo Nina Wray Makeup Artist" /></a> -->
+                    <!-- <a href="/"><img class="img-responsive" src="images/logo-nina-wray-black.jpg" alt="Wray Beauty Logo Nina Wray Makeup Artist" /></a> -->
+                <!-- </div> -->
+                <!-- <div class="col-sm-8"> -->
                     <h3 id="contact">Contact</h3>
                     <p class="vcard">
                       <span class="email">
@@ -178,7 +197,7 @@
                         <span class="locality">New York Metropolitan Area and New Jersey</span><!-- , <span class="country-name"></span> -->
                       </span>
                     </p>
-                </div>
+                <!-- </div> -->
             </div>
           </div>
         </div>
@@ -223,115 +242,152 @@
         <!-- endbuild -->
 </body>
 </html>
-;T:rawI"<div class="row">
-  <div class="col-sm-8">
-    <a href="/about-makeup-artist/"><img class="img-responsive" src="<%= @item[:level] %>images/Makeup-Artistry.jpg" alt="Makeup Artistry by Ally Mauro" /></a>
-  </div>
-  <div class="col-sm-4">
-    <a href="/wedding-makeup/"><img class="img-responsive" src="<%= @item[:level] %>images/wedding-bride-makeup2.jpg" alt="Wray Beauty Wedding Bride Makeup Photo 2" /></a>
-  </div>
-</div>
-<div class="row add-bottom-padding">
-  <div class="col-sm-4 col-xs-12">
-    <div class="row add-bottom-padding">
+;T:rawI"ø<!-- Carousel
+================================================== -->
+<div id="myCarousel" class="carousel slide">
+  <!-- Indicators -->
+  <ol class="carousel-indicators">
+    <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+    <li data-target="#myCarousel" data-slide-to="1"></li>
+    <li data-target="#myCarousel" data-slide-to="2"></li>
+    <li data-target="#myCarousel" data-slide-to="3"></li>
+    <li data-target="#myCarousel" data-slide-to="4"></li>
+  </ol>
+  <!-- Wrapper for slides -->
+  <div class="carousel-inner">
+    <div class="item active">
+      <a href="/wedding-makeup/">
+        <img class="img-responsive" src="<%= @item[:level] %>images/wedding-flowers.jpg" alt="Wray Beauty Wedding Flowers Makeup Photo" />
+        <div class="container">
+          <div class="carousel-caption">
+            <h1 class="carousel">Wedding</h1>
+            <!-- <p class="lead">On your wedding day you want to look and feel your best. I pride myself in making your makeup application fun, supportive and professional. You‚Äôll be picture perfect even when crying tears of joy.</p> -->
+          </div>
+        </div>
+      </a>
+    </div>
+    <div class="item">
+      <a href="/headshots-makeup/">
+        <img src="<%= @item[:level] %>images/Headshots-Makeup-Faces.jpg" alt="Wray Beauty Headshots Makeup Faces Image" />
+        <div class="container">
+          <div class="carousel-caption">
+            <h1 class="carousel">Headshots</h1>
+            <!-- <p class="lead">From years of experience as an actor and makeup artist I know the importance of a great headshot. We will find the look that shows off everything that is great about you so you can work it in front of the camera and get that perfect shot.</p> -->
+          </div>
+        </div>
+      </a>
+    </div>
+    <div class="item">
+      <a href="/other-services-makeup/">
+        <img src="<%= @item[:level] %>images/Makeup-Table-Pencils-Blush.jpg" alt="Wray Beauty Makeup Table Pencils Blush Image" />
+        <div class="container">
+          <div class="carousel-caption">
+            <h1 class="carousel">Other Services</h1>
+            <!-- <p class="lead">Wray Beauty offers a range of services from makeup lessons to personal shopping, as well as services for professional fashion, runway and editorial photo shoots.</p> -->
+          </div>
+        </div>
+      </a>
+    </div>
+    <div class="item">
       <a href="/about-makeup-artist/">
-        <img class="img-responsive" src="<%= @item[:level] %>images/logo-nina-wray-white.jpg" alt="Wray Beauty Logo Nina Wray Makeup Artist" />
-        <img class="img-responsive" src="<%= @item[:level] %>images/logo-nina-wray-black.jpg" alt="Wray Beauty Logo Nina Wray Makeup Artist" />
+        <img src="<%= @item[:level] %>images/Makeup-Artistry.jpg" alt="Makeup Artistry by Ally Mauro" />
+        <div class="container">
+          <div class="carousel-caption">
+            <h1 class="carousel">About Us</h1>
+            <!-- <p class="lead">I am warm, friendly and genuinely excited about each one of my clients. Whether you want to feel fabulous for a night out, create a time efficient look for your workday, or want the look that is going to give you the perfect pictures, Wray Beauty can help.</p> -->
+          </div>
+        </div>
       </a>
     </div>
-    <div class="row">
+    <div class="item">
       <a href="/contact-makeup-artist/">
-        <img class="img-responsive" src="<%= @item[:level] %>images/Brushes.jpg" alt="Not Cleaning Makeup Applicators by UrbaneWomenMag" />
+        <img src="<%= @item[:level] %>images/Blush-Palette.jpg" alt="Untitled by huangjiahui" />
+        <div class="container">
+          <div class="carousel-caption">
+            <h1 class="carousel">Get In Touch</h1>
+            <!-- <p class="lead">Interested in finding out more? Want to schedule an appointment? Find all our contact information right here: Phone, Email, and a Convenient Contact Form.</p> -->
+          </div>
+        </div>
       </a>
     </div>
   </div>
-  <div class="col-sm-8 col-xs-12">
-    <a href="/wedding-makeup/"><img class="img-responsive" src="<%= @item[:level] %>images/wedding-flowers.jpg" alt="Wray Beauty Wedding Flowers Makeup Photo" /></a>
-  </div>
-</div>
-<div class="row">
-  <div class="col-sm-4 col-xs-6">
-    <a href="/headshots-makeup/"><img class="img-responsive" src="<%= @item[:level] %>images/kg-jamie-evening-makeup2.jpg" alt="Wray Beauty KG Jamie Evening Makeup Photo 2" /></a>
-    <a href="/headshots-makeup/"><img class="img-responsive" src="<%= @item[:level] %>images/kg-jillian-evening-makeup3.jpg" alt="Wray Beauty KG Jillian Evening Makeup Photo 3" /></a>
-  </div>
-  <div class="col-sm-4 col-xs-6">
-    <a href="/headshots-makeup/"><img class="img-responsive" src="<%= @item[:level] %>images/kg-lily-natural-makeup2.jpg" alt="Wray Beauty KG Lily Natural Makeup Photo 2" /></a>
-    <a href="/headshots-makeup/"><img class="img-responsive" src="<%= @item[:level] %>images/kg-sarah-natural-makeup4.jpg" alt="Wray Beauty KG Sarah Natural Makeup Photo 4" /></a>
-  </div>
-  <div class="col-sm-4 col-xs-0">
-    <div class="row">
+  <!-- Controls -->
+  <a class="left carousel-control" href="#myCarousel" data-slide="prev">&lsaquo;</a>
+  <a class="right carousel-control" href="#myCarousel" data-slide="next">&rsaquo;</a>
+</div><!-- /.carousel -->;T:preI"[<!-- Carousel
+================================================== -->
+<div id="myCarousel" class="carousel slide">
+  <!-- Indicators -->
+  <ol class="carousel-indicators">
+    <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+    <li data-target="#myCarousel" data-slide-to="1"></li>
+    <li data-target="#myCarousel" data-slide-to="2"></li>
+    <li data-target="#myCarousel" data-slide-to="3"></li>
+    <li data-target="#myCarousel" data-slide-to="4"></li>
+  </ol>
+  <!-- Wrapper for slides -->
+  <div class="carousel-inner">
+    <div class="item active">
+      <a href="/wedding-makeup/">
+        <img class="img-responsive" src="images/wedding-flowers.jpg" alt="Wray Beauty Wedding Flowers Makeup Photo" />
+        <div class="container">
+          <div class="carousel-caption">
+            <h1 class="carousel">Wedding</h1>
+            <!-- <p class="lead">On your wedding day you want to look and feel your best. I pride myself in making your makeup application fun, supportive and professional. You‚Äôll be picture perfect even when crying tears of joy.</p> -->
+          </div>
+        </div>
+      </a>
+    </div>
+    <div class="item">
+      <a href="/headshots-makeup/">
+        <img src="images/Headshots-Makeup-Faces.jpg" alt="Wray Beauty Headshots Makeup Faces Image" />
+        <div class="container">
+          <div class="carousel-caption">
+            <h1 class="carousel">Headshots</h1>
+            <!-- <p class="lead">From years of experience as an actor and makeup artist I know the importance of a great headshot. We will find the look that shows off everything that is great about you so you can work it in front of the camera and get that perfect shot.</p> -->
+          </div>
+        </div>
+      </a>
+    </div>
+    <div class="item">
       <a href="/other-services-makeup/">
-        <img class="img-responsive" src="<%= @item[:level] %>images/Blush-Palette.jpg" alt="Untitled by huangjiahui" />
+        <img src="images/Makeup-Table-Pencils-Blush.jpg" alt="Wray Beauty Makeup Table Pencils Blush Image" />
+        <div class="container">
+          <div class="carousel-caption">
+            <h1 class="carousel">Other Services</h1>
+            <!-- <p class="lead">Wray Beauty offers a range of services from makeup lessons to personal shopping, as well as services for professional fashion, runway and editorial photo shoots.</p> -->
+          </div>
+        </div>
       </a>
     </div>
-    <div class="row">
-      <a href="/other-services-makeup/">
-        <img class="img-responsive" src="<%= @item[:level] %>images/Makeup-Table.jpg" alt="Makeup Sharing by UrbaneWomenMag" />
-      </a>
-    </div>
-  </div>
-</div>
-
-<!-- <div class="row"> -->
-  <!-- <div class="col-xs-12"> -->
-    <!-- <img class="img-responsive" src="images/comingsoon.jpg" alt="WrayBeauty.com Coming Soon" /> -->
-  <!-- </div> -->
-<!-- </div> -->;T:preI"!
-<div class="row">
-  <div class="col-sm-8">
-    <a href="/about-makeup-artist/"><img class="img-responsive" src="images/Makeup-Artistry.jpg" alt="Makeup Artistry by Ally Mauro" /></a>
-  </div>
-  <div class="col-sm-4">
-    <a href="/wedding-makeup/"><img class="img-responsive" src="images/wedding-bride-makeup2.jpg" alt="Wray Beauty Wedding Bride Makeup Photo 2" /></a>
-  </div>
-</div>
-<div class="row add-bottom-padding">
-  <div class="col-sm-4 col-xs-12">
-    <div class="row add-bottom-padding">
+    <div class="item">
       <a href="/about-makeup-artist/">
-        <img class="img-responsive" src="images/logo-nina-wray-white.jpg" alt="Wray Beauty Logo Nina Wray Makeup Artist" />
-        <img class="img-responsive" src="images/logo-nina-wray-black.jpg" alt="Wray Beauty Logo Nina Wray Makeup Artist" />
+        <img src="images/Makeup-Artistry.jpg" alt="Makeup Artistry by Ally Mauro" />
+        <div class="container">
+          <div class="carousel-caption">
+            <h1 class="carousel">About Us</h1>
+            <!-- <p class="lead">I am warm, friendly and genuinely excited about each one of my clients. Whether you want to feel fabulous for a night out, create a time efficient look for your workday, or want the look that is going to give you the perfect pictures, Wray Beauty can help.</p> -->
+          </div>
+        </div>
       </a>
     </div>
-    <div class="row">
+    <div class="item">
       <a href="/contact-makeup-artist/">
-        <img class="img-responsive" src="images/Brushes.jpg" alt="Not Cleaning Makeup Applicators by UrbaneWomenMag" />
+        <img src="images/Blush-Palette.jpg" alt="Untitled by huangjiahui" />
+        <div class="container">
+          <div class="carousel-caption">
+            <h1 class="carousel">Get In Touch</h1>
+            <!-- <p class="lead">Interested in finding out more? Want to schedule an appointment? Find all our contact information right here: Phone, Email, and a Convenient Contact Form.</p> -->
+          </div>
+        </div>
       </a>
     </div>
   </div>
-  <div class="col-sm-8 col-xs-12">
-    <a href="/wedding-makeup/"><img class="img-responsive" src="images/wedding-flowers.jpg" alt="Wray Beauty Wedding Flowers Makeup Photo" /></a>
-  </div>
-</div>
-<div class="row">
-  <div class="col-sm-4 col-xs-6">
-    <a href="/headshots-makeup/"><img class="img-responsive" src="images/kg-jamie-evening-makeup2.jpg" alt="Wray Beauty KG Jamie Evening Makeup Photo 2" /></a>
-    <a href="/headshots-makeup/"><img class="img-responsive" src="images/kg-jillian-evening-makeup3.jpg" alt="Wray Beauty KG Jillian Evening Makeup Photo 3" /></a>
-  </div>
-  <div class="col-sm-4 col-xs-6">
-    <a href="/headshots-makeup/"><img class="img-responsive" src="images/kg-lily-natural-makeup2.jpg" alt="Wray Beauty KG Lily Natural Makeup Photo 2" /></a>
-    <a href="/headshots-makeup/"><img class="img-responsive" src="images/kg-sarah-natural-makeup4.jpg" alt="Wray Beauty KG Sarah Natural Makeup Photo 4" /></a>
-  </div>
-  <div class="col-sm-4 col-xs-0">
-    <div class="row">
-      <a href="/other-services-makeup/">
-        <img class="img-responsive" src="images/Blush-Palette.jpg" alt="Untitled by huangjiahui" />
-      </a>
-    </div>
-    <div class="row">
-      <a href="/other-services-makeup/">
-        <img class="img-responsive" src="images/Makeup-Table.jpg" alt="Makeup Sharing by UrbaneWomenMag" />
-      </a>
-    </div>
-  </div>
-</div>
-
-<!-- <div class="row"> -->
-  <!-- <div class="col-xs-12"> -->
-    <!-- <img class="img-responsive" src="images/comingsoon.jpg" alt="WrayBeauty.com Coming Soon" /> -->
-  <!-- </div> -->
-<!-- </div> -->;T:	post@
-I"/wedding-makeup/;T{;{	;I"è+<!doctype html>
+  <!-- Controls -->
+  <a class="left carousel-control" href="#myCarousel" data-slide="prev">&lsaquo;</a>
+  <a class="right carousel-control" href="#myCarousel" data-slide="next">&rsaquo;</a>
+</div><!-- /.carousel -->;T:	post@
+I"/wedding-makeup/;T{;{	;I"Ë+<!doctype html>
 <!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
 <!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
 <!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
@@ -443,10 +499,10 @@ I"/wedding-makeup/;T{;{	;I"è+<!doctype html>
 </div>
 <div class="row">
   <div class="col-xs-6">
-    <img class="img-responsive" src="../images/wedding-bride-makeup1.jpg" alt="Wedding Bride Makeup Photo 1" />
+    <img class="img-responsive photograph" src="../images/wedding-bride-makeup1.jpg" alt="Wedding Bride Makeup Photo 1" />
   </div>
   <div class="col-xs-6">
-    <img class="img-responsive" src="../images/wedding-makeup-artist2.jpg" alt="Wedding Makeup Artist Photo 2" />
+    <img class="img-responsive photograph2" src="../images/wedding-makeup-artist2.jpg" alt="Wedding Makeup Artist Photo 2" />
   </div>
 </div>
 <div class="row">
@@ -478,7 +534,7 @@ I"/wedding-makeup/;T{;{	;I"è+<!doctype html>
       <p>‚ÄúNina made my wedding a dream come true with the exquisite makeup she provided for my mother and me. She not only made us both feel completely beautiful and well cared for but she explained the process and made us feel completely comfortable. She was extremely professional and provided quality work that all my guests wowed over. I could not have been happier with how my makeup looked for my wedding!! Both my mother and I were 100% satisfied. I highly recommend Nina to all who want a quality makeup artist.‚Äù</p>
       <p>-Anna Rose Meyerhoff</p>
     </blockquote>
-    <img class="img-responsive" src="../images/wedding-just-married.jpg" alt="Wedding Just Married Photo 4" />
+    <img class="img-responsive photograph3" src="../images/wedding-just-married.jpg" alt="Wedding Just Married Photo 4" />
   </div>
 </div>
         </div>
@@ -486,11 +542,11 @@ I"/wedding-makeup/;T{;{	;I"è+<!doctype html>
         <div class="container">
           <div class="footer">
             <div class="row">
-                <div class="col-sm-4">
-                    <a href="/"><img class="img-responsive" src="../images/logo-nina-wray-white.jpg" alt="Wray Beauty Logo Nina Wray Makeup Artist" /></a>
-                    <a href="/"><img class="img-responsive" src="../images/logo-nina-wray-black.jpg" alt="Wray Beauty Logo Nina Wray Makeup Artist" /></a>
-                </div>
-                <div class="col-sm-8">
+                <!-- <div class="col-sm-4"> -->
+                    <!-- <a href="/"><img class="img-responsive" src="../images/logo-nina-wray-white.jpg" alt="Wray Beauty Logo Nina Wray Makeup Artist" /></a> -->
+                    <!-- <a href="/"><img class="img-responsive" src="../images/logo-nina-wray-black.jpg" alt="Wray Beauty Logo Nina Wray Makeup Artist" /></a> -->
+                <!-- </div> -->
+                <!-- <div class="col-sm-8"> -->
                     <h3 id="contact">Contact</h3>
                     <p class="vcard">
                       <span class="email">
@@ -502,7 +558,7 @@ I"/wedding-makeup/;T{;{	;I"è+<!doctype html>
                         <span class="locality">New York Metropolitan Area and New Jersey</span><!-- , <span class="country-name"></span> -->
                       </span>
                     </p>
-                </div>
+                <!-- </div> -->
             </div>
           </div>
         </div>
@@ -547,17 +603,17 @@ I"/wedding-makeup/;T{;{	;I"è+<!doctype html>
         <!-- endbuild -->
 </body>
 </html>
-;T;	I"7	<div class="row">
+;T;	I"Z	<div class="row">
   <div class="col-xs-12">
     <h1 class="no-top-margin">Wedding</h1>
   </div>
 </div>
 <div class="row">
   <div class="col-xs-6">
-    <img class="img-responsive" src="<%= @item[:level] %>images/wedding-bride-makeup1.jpg" alt="Wedding Bride Makeup Photo 1" />
+    <img class="img-responsive photograph" src="<%= @item[:level] %>images/wedding-bride-makeup1.jpg" alt="Wedding Bride Makeup Photo 1" />
   </div>
   <div class="col-xs-6">
-    <img class="img-responsive" src="<%= @item[:level] %>images/wedding-makeup-artist2.jpg" alt="Wedding Makeup Artist Photo 2" />
+    <img class="img-responsive photograph2" src="<%= @item[:level] %>images/wedding-makeup-artist2.jpg" alt="Wedding Makeup Artist Photo 2" />
   </div>
 </div>
 <div class="row">
@@ -589,20 +645,20 @@ I"/wedding-makeup/;T{;{	;I"è+<!doctype html>
       <p>‚ÄúNina made my wedding a dream come true with the exquisite makeup she provided for my mother and me. She not only made us both feel completely beautiful and well cared for but she explained the process and made us feel completely comfortable. She was extremely professional and provided quality work that all my guests wowed over. I could not have been happier with how my makeup looked for my wedding!! Both my mother and I were 100% satisfied. I highly recommend Nina to all who want a quality makeup artist.‚Äù</p>
       <p>-Anna Rose Meyerhoff</p>
     </blockquote>
-    <img class="img-responsive" src="<%= @item[:level] %>images/wedding-just-married.jpg" alt="Wedding Just Married Photo 4" />
+    <img class="img-responsive photograph3" src="<%= @item[:level] %>images/wedding-just-married.jpg" alt="Wedding Just Married Photo 4" />
   </div>
 </div>;T;
-I"	<div class="row">
+I"'	<div class="row">
   <div class="col-xs-12">
     <h1 class="no-top-margin">Wedding</h1>
   </div>
 </div>
 <div class="row">
   <div class="col-xs-6">
-    <img class="img-responsive" src="../images/wedding-bride-makeup1.jpg" alt="Wedding Bride Makeup Photo 1" />
+    <img class="img-responsive photograph" src="../images/wedding-bride-makeup1.jpg" alt="Wedding Bride Makeup Photo 1" />
   </div>
   <div class="col-xs-6">
-    <img class="img-responsive" src="../images/wedding-makeup-artist2.jpg" alt="Wedding Makeup Artist Photo 2" />
+    <img class="img-responsive photograph2" src="../images/wedding-makeup-artist2.jpg" alt="Wedding Makeup Artist Photo 2" />
   </div>
 </div>
 <div class="row">
@@ -634,9 +690,9 @@ I"	<div class="row">
       <p>‚ÄúNina made my wedding a dream come true with the exquisite makeup she provided for my mother and me. She not only made us both feel completely beautiful and well cared for but she explained the process and made us feel completely comfortable. She was extremely professional and provided quality work that all my guests wowed over. I could not have been happier with how my makeup looked for my wedding!! Both my mother and I were 100% satisfied. I highly recommend Nina to all who want a quality makeup artist.‚Äù</p>
       <p>-Anna Rose Meyerhoff</p>
     </blockquote>
-    <img class="img-responsive" src="../images/wedding-just-married.jpg" alt="Wedding Just Married Photo 4" />
+    <img class="img-responsive photograph3" src="../images/wedding-just-married.jpg" alt="Wedding Just Married Photo 4" />
   </div>
-</div>;T;@I"/headshots-makeup/;T{;{	;I",<!doctype html>
+</div>;T;@I"/headshots-makeup/;T{;{	;I"G,<!doctype html>
 <!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
 <!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
 <!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
@@ -789,11 +845,11 @@ I"	<div class="row">
         <div class="container">
           <div class="footer">
             <div class="row">
-                <div class="col-sm-4">
-                    <a href="/"><img class="img-responsive" src="../images/logo-nina-wray-white.jpg" alt="Wray Beauty Logo Nina Wray Makeup Artist" /></a>
-                    <a href="/"><img class="img-responsive" src="../images/logo-nina-wray-black.jpg" alt="Wray Beauty Logo Nina Wray Makeup Artist" /></a>
-                </div>
-                <div class="col-sm-8">
+                <!-- <div class="col-sm-4"> -->
+                    <!-- <a href="/"><img class="img-responsive" src="../images/logo-nina-wray-white.jpg" alt="Wray Beauty Logo Nina Wray Makeup Artist" /></a> -->
+                    <!-- <a href="/"><img class="img-responsive" src="../images/logo-nina-wray-black.jpg" alt="Wray Beauty Logo Nina Wray Makeup Artist" /></a> -->
+                <!-- </div> -->
+                <!-- <div class="col-sm-8"> -->
                     <h3 id="contact">Contact</h3>
                     <p class="vcard">
                       <span class="email">
@@ -805,7 +861,7 @@ I"	<div class="row">
                         <span class="locality">New York Metropolitan Area and New Jersey</span><!-- , <span class="country-name"></span> -->
                       </span>
                     </p>
-                </div>
+                <!-- </div> -->
             </div>
           </div>
         </div>
@@ -935,7 +991,7 @@ I"’<div class="row">
     </blockquote>
     <img class="img-responsive" src="../images/capezio-beauty4.jpg" alt="Headshots Capezio Beauty Photo 4" />
   </div>
-</div>;T;@I"/other-services-makeup/;T{;{	;I"Ù0<!doctype html>
+</div>;T;@I"/other-services-makeup/;T{;{	;I"*1<!doctype html>
 <!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
 <!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
 <!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
@@ -1108,11 +1164,11 @@ I"’<div class="row">
         <div class="container">
           <div class="footer">
             <div class="row">
-                <div class="col-sm-4">
-                    <a href="/"><img class="img-responsive" src="../images/logo-nina-wray-white.jpg" alt="Wray Beauty Logo Nina Wray Makeup Artist" /></a>
-                    <a href="/"><img class="img-responsive" src="../images/logo-nina-wray-black.jpg" alt="Wray Beauty Logo Nina Wray Makeup Artist" /></a>
-                </div>
-                <div class="col-sm-8">
+                <!-- <div class="col-sm-4"> -->
+                    <!-- <a href="/"><img class="img-responsive" src="../images/logo-nina-wray-white.jpg" alt="Wray Beauty Logo Nina Wray Makeup Artist" /></a> -->
+                    <!-- <a href="/"><img class="img-responsive" src="../images/logo-nina-wray-black.jpg" alt="Wray Beauty Logo Nina Wray Makeup Artist" /></a> -->
+                <!-- </div> -->
+                <!-- <div class="col-sm-8"> -->
                     <h3 id="contact">Contact</h3>
                     <p class="vcard">
                       <span class="email">
@@ -1124,7 +1180,7 @@ I"’<div class="row">
                         <span class="locality">New York Metropolitan Area and New Jersey</span><!-- , <span class="country-name"></span> -->
                       </span>
                     </p>
-                </div>
+                <!-- </div> -->
             </div>
           </div>
         </div>
@@ -1556,7 +1612,7 @@ I"I<div class="row">
   <div class="col-xs-12">
     <img class="img-responsive" src="../images/capezio-halloween-red-devil.jpg" alt="The Complete Package Capezio Halloween Red Devil Photo" />
   </div>
-</div>;T;@"I"/about-makeup-artist/;T{;{	;I"*<!doctype html>
+</div>;T;@"I"/about-makeup-artist/;T{;{	;I"µ*<!doctype html>
 <!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
 <!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
 <!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
@@ -1697,11 +1753,11 @@ I"I<div class="row">
         <div class="container">
           <div class="footer">
             <div class="row">
-                <div class="col-sm-4">
-                    <a href="/"><img class="img-responsive" src="../images/logo-nina-wray-white.jpg" alt="Wray Beauty Logo Nina Wray Makeup Artist" /></a>
-                    <a href="/"><img class="img-responsive" src="../images/logo-nina-wray-black.jpg" alt="Wray Beauty Logo Nina Wray Makeup Artist" /></a>
-                </div>
-                <div class="col-sm-8">
+                <!-- <div class="col-sm-4"> -->
+                    <!-- <a href="/"><img class="img-responsive" src="../images/logo-nina-wray-white.jpg" alt="Wray Beauty Logo Nina Wray Makeup Artist" /></a> -->
+                    <!-- <a href="/"><img class="img-responsive" src="../images/logo-nina-wray-black.jpg" alt="Wray Beauty Logo Nina Wray Makeup Artist" /></a> -->
+                <!-- </div> -->
+                <!-- <div class="col-sm-8"> -->
                     <h3 id="contact">Contact</h3>
                     <p class="vcard">
                       <span class="email">
@@ -1713,7 +1769,7 @@ I"I<div class="row">
                         <span class="locality">New York Metropolitan Area and New Jersey</span><!-- , <span class="country-name"></span> -->
                       </span>
                     </p>
-                </div>
+                <!-- </div> -->
             </div>
           </div>
         </div>
@@ -1819,7 +1875,7 @@ I"T<div class="row">
   <div class="col-xs-12">
     <!-- <img class="img-responsive" src="../images/capezio-halloween-red-devil.jpg" alt="The Complete Package Capezio Halloween Red Devil Photo" /> -->
   </div>
-</div>;T;@(I"/contact-makeup-artist/;T{;{	;I"4)<!doctype html>
+</div>;T;@(I"/contact-makeup-artist/;T{;{	;I"ƒ5<!doctype html>
 <!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
 <!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
 <!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
@@ -1836,7 +1892,7 @@ I"T<div class="row">
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <meta name="author" content="MFRWDesign" />
-        <meta name="description" content="I am warm, friendly and genuinely excited about each one of my clients. Whether you want to feel fabulous for a night out, create a time efficient look for your workday, or want the look that is going to give you the perfect pictures, Wray Beauty can help." />
+        <meta name="description" content="Interested in finding out more? Want to schedule an appointment? Find all our contact information right here: Phone, Email, and a Convenient Contact Form." />
         <meta name="keywords" content="makeup artist, makeup, wedding makeup, wedding, professional makeup artist, cosmetologist, cosmetology, nina, nina wray, wray, wraybeauty, wray beauty, beauty, headshots, actor makeup, actress makeup, performance makeup, headshot makeup, editorial, editorial makeup, Makeup New York, Makeup New Jersey, makeup lessons, personal shopper, makeup personal shopper" />
         <meta name="HandheldFriendly" content="True" />
         <meta name="MobileOptimized" content="320" />
@@ -1961,16 +2017,48 @@ I"T<div class="row">
     <!-- <img class="img-responsive" src="../images/capezio-halloween-red-devil.jpg" alt="The Complete Package Capezio Halloween Red Devil Photo" /> -->
   </div>
 </div>
+
+
+
+
+
+
+
+
+
+<!-- The Following Pictures are used on the website and are Licensed under Creative Commons from their owners.
+==============================================================================================================
+
+<a href="http://www.flickr.com/photos/trostle/6848775772/" title="Makeup Brush on White Background by Trostle, on Flickr"><img src="http://farm8.staticflickr.com/7079/6848775772_5c67df01f3_o.jpg" width="5184" height="3456" alt="Makeup Brush on White Background"></a>
+
+<a href="http://www.flickr.com/photos/88092208@N06/9254431136/" title="Use These 4 Top Tips to Solve Your Oily Skin Problem When Applying Makeup - Choose A Matte Blush by UrbaneWomenMag, on Flickr"><img src="http://farm3.staticflickr.com/2809/9254431136_3c672eb44e_o.jpg" width="500" height="428" alt="Use These 4 Top Tips to Solve Your Oily Skin Problem When Applying Makeup - Choose A Matte Blush"></a>
+
+<a href="http://www.flickr.com/photos/88092208@N06/9771129725/" title="11 Bad Beauty Habits &amp; How You Can Beat Them For Good - Not Cleaning Makeup Applicators by UrbaneWomenMag, on Flickr"><img src="http://farm3.staticflickr.com/2888/9771129725_43847882e7_o.jpg" width="500" height="299" alt="11 Bad Beauty Habits &amp; How You Can Beat Them For Good - Not Cleaning Makeup Applicators"></a>
+
+<a href="http://www.flickr.com/photos/88092208@N06/9251652847/" title="Use These 4 Top Tips to Solve Your Oily Skin Problem When Applying Makeup - Eye Liner And Eye Shadow by UrbaneWomenMag, on Flickr"><img src="http://farm8.staticflickr.com/7312/9251652847_f61f273e90_o.jpg" width="500" height="388" alt="Use These 4 Top Tips to Solve Your Oily Skin Problem When Applying Makeup - Eye Liner And Eye Shadow"></a>
+
+<a href="http://www.flickr.com/photos/ally_m/7021490777/" title="Makeup Artistry by Ally Mauro, on Flickr"><img src="http://farm8.staticflickr.com/7252/7021490777_9c706d4763_o.jpg" width="2700" height="2700" alt="Makeup Artistry"></a>
+
+<a href="http://www.flickr.com/photos/huangjiahui/4530231005/" title="Untitled by huangjiahui, on Flickr"><img src="http://farm5.staticflickr.com/4039/4530231005_3aca02ec27_o.jpg" width="1280" height="853" alt="Untitled"></a>
+
+<a href="http://www.flickr.com/photos/88092208@N06/9613625344/" title="7 Common Mistakes Women Make When Applying Makeup - Penciling On The Eyebrows by UrbaneWomenMag, on Flickr"><img src="http://farm4.staticflickr.com/3771/9613625344_b43a3b5c4b_o.jpg" width="500" height="242" alt="7 Common Mistakes Women Make When Applying Makeup - Penciling On The Eyebrows"></a>
+
+<a href="http://www.flickr.com/photos/88092208@N06/9770920551/" title="11 Bad Beauty Habits &amp; How You Can Beat Them For Good - Makeup Sharing by UrbaneWomenMag, on Flickr"><img src="http://farm8.staticflickr.com/7397/9770920551_5f4195707a_o.jpg" width="500" height="333" alt="11 Bad Beauty Habits &amp; How You Can Beat Them For Good - Makeup Sharing"></a>
+
+<a href="http://www.flickr.com/photos/jhaymesisvip/6299232261/" title="DSC07853 by Jhaymesisviphotography, on Flickr"><img src="http://farm7.staticflickr.com/6055/6299232261_b9070cdd16_o.jpg" width="3872" height="2592" alt="DSC07853"></a>
+
+==============================================================================================================
+-->
         </div>
 
         <div class="container">
           <div class="footer">
             <div class="row">
-                <div class="col-sm-4">
-                    <a href="/"><img class="img-responsive" src="../images/logo-nina-wray-white.jpg" alt="Wray Beauty Logo Nina Wray Makeup Artist" /></a>
-                    <a href="/"><img class="img-responsive" src="../images/logo-nina-wray-black.jpg" alt="Wray Beauty Logo Nina Wray Makeup Artist" /></a>
-                </div>
-                <div class="col-sm-8">
+                <!-- <div class="col-sm-4"> -->
+                    <!-- <a href="/"><img class="img-responsive" src="../images/logo-nina-wray-white.jpg" alt="Wray Beauty Logo Nina Wray Makeup Artist" /></a> -->
+                    <!-- <a href="/"><img class="img-responsive" src="../images/logo-nina-wray-black.jpg" alt="Wray Beauty Logo Nina Wray Makeup Artist" /></a> -->
+                <!-- </div> -->
+                <!-- <div class="col-sm-8"> -->
                     <h3 id="contact">Contact</h3>
                     <p class="vcard">
                       <span class="email">
@@ -1982,7 +2070,7 @@ I"T<div class="row">
                         <span class="locality">New York Metropolitan Area and New Jersey</span><!-- , <span class="country-name"></span> -->
                       </span>
                     </p>
-                </div>
+                <!-- </div> -->
             </div>
           </div>
         </div>
@@ -2027,7 +2115,7 @@ I"T<div class="row">
         <!-- endbuild -->
 </body>
 </html>
-;T;	I"h<div class="row">
+;T;	I"(<div class="row">
   <div class="col-xs-12">
     <h1 class="no-top-margin">Contact</h1>
   </div>
@@ -2063,8 +2151,40 @@ I"T<div class="row">
   <div class="col-xs-12">
     <!-- <img class="img-responsive" src="<%= @item[:level] %>images/capezio-halloween-red-devil.jpg" alt="The Complete Package Capezio Halloween Red Devil Photo" /> -->
   </div>
-</div>;T;
-I"	<div class="row">
+</div>
+
+
+
+
+
+
+
+
+
+<!-- The Following Pictures are used on the website and are Licensed under Creative Commons from their owners.
+==============================================================================================================
+
+<a href="http://www.flickr.com/photos/trostle/6848775772/" title="Makeup Brush on White Background by Trostle, on Flickr"><img src="http://farm8.staticflickr.com/7079/6848775772_5c67df01f3_o.jpg" width="5184" height="3456" alt="Makeup Brush on White Background"></a>
+
+<a href="http://www.flickr.com/photos/88092208@N06/9254431136/" title="Use These 4 Top Tips to Solve Your Oily Skin Problem When Applying Makeup - Choose A Matte Blush by UrbaneWomenMag, on Flickr"><img src="http://farm3.staticflickr.com/2809/9254431136_3c672eb44e_o.jpg" width="500" height="428" alt="Use These 4 Top Tips to Solve Your Oily Skin Problem When Applying Makeup - Choose A Matte Blush"></a>
+
+<a href="http://www.flickr.com/photos/88092208@N06/9771129725/" title="11 Bad Beauty Habits &amp; How You Can Beat Them For Good - Not Cleaning Makeup Applicators by UrbaneWomenMag, on Flickr"><img src="http://farm3.staticflickr.com/2888/9771129725_43847882e7_o.jpg" width="500" height="299" alt="11 Bad Beauty Habits &amp; How You Can Beat Them For Good - Not Cleaning Makeup Applicators"></a>
+
+<a href="http://www.flickr.com/photos/88092208@N06/9251652847/" title="Use These 4 Top Tips to Solve Your Oily Skin Problem When Applying Makeup - Eye Liner And Eye Shadow by UrbaneWomenMag, on Flickr"><img src="http://farm8.staticflickr.com/7312/9251652847_f61f273e90_o.jpg" width="500" height="388" alt="Use These 4 Top Tips to Solve Your Oily Skin Problem When Applying Makeup - Eye Liner And Eye Shadow"></a>
+
+<a href="http://www.flickr.com/photos/ally_m/7021490777/" title="Makeup Artistry by Ally Mauro, on Flickr"><img src="http://farm8.staticflickr.com/7252/7021490777_9c706d4763_o.jpg" width="2700" height="2700" alt="Makeup Artistry"></a>
+
+<a href="http://www.flickr.com/photos/huangjiahui/4530231005/" title="Untitled by huangjiahui, on Flickr"><img src="http://farm5.staticflickr.com/4039/4530231005_3aca02ec27_o.jpg" width="1280" height="853" alt="Untitled"></a>
+
+<a href="http://www.flickr.com/photos/88092208@N06/9613625344/" title="7 Common Mistakes Women Make When Applying Makeup - Penciling On The Eyebrows by UrbaneWomenMag, on Flickr"><img src="http://farm4.staticflickr.com/3771/9613625344_b43a3b5c4b_o.jpg" width="500" height="242" alt="7 Common Mistakes Women Make When Applying Makeup - Penciling On The Eyebrows"></a>
+
+<a href="http://www.flickr.com/photos/88092208@N06/9770920551/" title="11 Bad Beauty Habits &amp; How You Can Beat Them For Good - Makeup Sharing by UrbaneWomenMag, on Flickr"><img src="http://farm8.staticflickr.com/7397/9770920551_5f4195707a_o.jpg" width="500" height="333" alt="11 Bad Beauty Habits &amp; How You Can Beat Them For Good - Makeup Sharing"></a>
+
+<a href="http://www.flickr.com/photos/jhaymesisvip/6299232261/" title="DSC07853 by Jhaymesisviphotography, on Flickr"><img src="http://farm7.staticflickr.com/6055/6299232261_b9070cdd16_o.jpg" width="3872" height="2592" alt="DSC07853"></a>
+
+==============================================================================================================
+-->;T;
+I"…<div class="row">
   <div class="col-xs-12">
     <h1 class="no-top-margin">Contact</h1>
   </div>
@@ -2100,4 +2220,36 @@ I"	<div class="row">
   <div class="col-xs-12">
     <!-- <img class="img-responsive" src="../images/capezio-halloween-red-devil.jpg" alt="The Complete Package Capezio Halloween Red Devil Photo" /> -->
   </div>
-</div>;T;@.:versioni
+</div>
+
+
+
+
+
+
+
+
+
+<!-- The Following Pictures are used on the website and are Licensed under Creative Commons from their owners.
+==============================================================================================================
+
+<a href="http://www.flickr.com/photos/trostle/6848775772/" title="Makeup Brush on White Background by Trostle, on Flickr"><img src="http://farm8.staticflickr.com/7079/6848775772_5c67df01f3_o.jpg" width="5184" height="3456" alt="Makeup Brush on White Background"></a>
+
+<a href="http://www.flickr.com/photos/88092208@N06/9254431136/" title="Use These 4 Top Tips to Solve Your Oily Skin Problem When Applying Makeup - Choose A Matte Blush by UrbaneWomenMag, on Flickr"><img src="http://farm3.staticflickr.com/2809/9254431136_3c672eb44e_o.jpg" width="500" height="428" alt="Use These 4 Top Tips to Solve Your Oily Skin Problem When Applying Makeup - Choose A Matte Blush"></a>
+
+<a href="http://www.flickr.com/photos/88092208@N06/9771129725/" title="11 Bad Beauty Habits &amp; How You Can Beat Them For Good - Not Cleaning Makeup Applicators by UrbaneWomenMag, on Flickr"><img src="http://farm3.staticflickr.com/2888/9771129725_43847882e7_o.jpg" width="500" height="299" alt="11 Bad Beauty Habits &amp; How You Can Beat Them For Good - Not Cleaning Makeup Applicators"></a>
+
+<a href="http://www.flickr.com/photos/88092208@N06/9251652847/" title="Use These 4 Top Tips to Solve Your Oily Skin Problem When Applying Makeup - Eye Liner And Eye Shadow by UrbaneWomenMag, on Flickr"><img src="http://farm8.staticflickr.com/7312/9251652847_f61f273e90_o.jpg" width="500" height="388" alt="Use These 4 Top Tips to Solve Your Oily Skin Problem When Applying Makeup - Eye Liner And Eye Shadow"></a>
+
+<a href="http://www.flickr.com/photos/ally_m/7021490777/" title="Makeup Artistry by Ally Mauro, on Flickr"><img src="http://farm8.staticflickr.com/7252/7021490777_9c706d4763_o.jpg" width="2700" height="2700" alt="Makeup Artistry"></a>
+
+<a href="http://www.flickr.com/photos/huangjiahui/4530231005/" title="Untitled by huangjiahui, on Flickr"><img src="http://farm5.staticflickr.com/4039/4530231005_3aca02ec27_o.jpg" width="1280" height="853" alt="Untitled"></a>
+
+<a href="http://www.flickr.com/photos/88092208@N06/9613625344/" title="7 Common Mistakes Women Make When Applying Makeup - Penciling On The Eyebrows by UrbaneWomenMag, on Flickr"><img src="http://farm4.staticflickr.com/3771/9613625344_b43a3b5c4b_o.jpg" width="500" height="242" alt="7 Common Mistakes Women Make When Applying Makeup - Penciling On The Eyebrows"></a>
+
+<a href="http://www.flickr.com/photos/88092208@N06/9770920551/" title="11 Bad Beauty Habits &amp; How You Can Beat Them For Good - Makeup Sharing by UrbaneWomenMag, on Flickr"><img src="http://farm8.staticflickr.com/7397/9770920551_5f4195707a_o.jpg" width="500" height="333" alt="11 Bad Beauty Habits &amp; How You Can Beat Them For Good - Makeup Sharing"></a>
+
+<a href="http://www.flickr.com/photos/jhaymesisvip/6299232261/" title="DSC07853 by Jhaymesisviphotography, on Flickr"><img src="http://farm7.staticflickr.com/6055/6299232261_b9070cdd16_o.jpg" width="3872" height="2592" alt="DSC07853"></a>
+
+==============================================================================================================
+-->;T;@.:versioni
