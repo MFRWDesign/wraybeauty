@@ -51,6 +51,7 @@ $custom-font-path: "fonts/";
 
 $brand-primary:         #d83552;
 $navbar-default-bg: white;
+$wray-gray: #ababac;
 
 
 $font-family-avant-garde:  'Avant Garde', "Univers", "Helvetica Neue", Helvetica, Arial, sans-serif;
@@ -62,6 +63,9 @@ $font-family-ebgaramond: 'EBGaramond', Georgia, "Times New Roman", Times, serif;
 
 $font-family-sans-serif:  $font-family-futura;
 $font-family-serif:       "Century School Book", Georgia, "Times New Roman", Times, serif;
+
+$font-size-base: 13px;
+$line-height-computed: 16px;
 
 // Carousel
 // ------------------------
@@ -79,6 +83,43 @@ $carousel-indicator-border-color:             #999;
 $carousel-caption-color:                      #fff;
 
 @import 'sass-bootstrap/lib/bootstrap';
+
+// Offsets
+.col-xs-offset-1  { margin-left: percentage((1 / $grid-columns)); }
+.col-xs-offset-2  { margin-left: percentage((2 / $grid-columns)); }
+.col-xs-offset-3  { margin-left: percentage((3 / $grid-columns)); }
+.col-xs-offset-4  { margin-left: percentage((4 / $grid-columns)); }
+.col-xs-offset-5  { margin-left: percentage((5 / $grid-columns)); }
+.col-xs-offset-6  { margin-left: percentage((6 / $grid-columns)); }
+.col-xs-offset-7  { margin-left: percentage((7 / $grid-columns)); }
+.col-xs-offset-8  { margin-left: percentage((8 / $grid-columns)); }
+.col-xs-offset-9  { margin-left: percentage((9 / $grid-columns)); }
+.col-xs-offset-10 { margin-left: percentage((10/ $grid-columns)); }
+.col-xs-offset-11 { margin-left: percentage((11/ $grid-columns)); }
+
+h1 {
+  font-size: 24px;
+  line-height: 24px;
+  font-weight: 300;
+  text-transform: uppercase;
+}
+
+h3 {
+  font-size: 16px;
+  line-height: 16px;
+  font-weight: 400;
+  text-transform: uppercase;
+}
+
+.brand-color {
+  color: $brand-primary;
+}
+
+.starline {
+  font-size: 11px;
+  line-height: 11px;
+  font-weight: 400;
+}
 
 .futura {
   font-family: $font-family-futura;
@@ -102,8 +143,8 @@ $carousel-caption-color:                      #fff;
 }
 
 #navbar-collapse-style {
-  border-top: 1px solid #000;
-  border-bottom: 1px solid #000;
+  border-top: 1px solid $wray-gray;
+  border-bottom: 1px solid $wray-gray;
 }
 
 .header-logo {
@@ -350,7 +391,13 @@ h1.carousel {
     border: 2px solid darken($gray-lighter, 5%);
     // box-shadow: 3px 3px 3px $gray-light, -3px 3px 3px $gray-light, 3px -3px 3px $gray-light, -3px -3px 3px $gray-light;
     box-shadow: 3px 3px 7px $gray;
-    @include rotate(14deg);
+    @include rotate(10deg);
+}
+
+.position-photo2 {
+  position: absolute;
+  top: 10%;
+  left: 57%;
 }
 
 .photograph3 {
@@ -359,7 +406,7 @@ h1.carousel {
     border: 2px solid darken($gray-lighter, 5%);
     // box-shadow: 3px 3px 3px $gray-light, -3px 3px 3px $gray-light, 3px -3px 3px $gray-light, -3px -3px 3px $gray-light;
     box-shadow: 3px 3px 7px $gray;
-    @include rotate(5deg);
+    @include rotate(-5deg);
 }
 
 .browsehappy {
@@ -487,6 +534,10 @@ background-color: #FFF;
 }
 .add-bottom-padding {
     padding-bottom: 20px;
+}
+
+.add-top-padding {
+    padding-top: 20px;
 }
 
 // .navbar-fixed-top {
