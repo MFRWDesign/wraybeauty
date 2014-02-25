@@ -3,6 +3,34 @@ $icon-font-path: "/bower_components/sass-bootstrap/fonts/";
 $custom-font-path: "fonts/";
 
 // Import the fonts
+
+@font-face {
+  font-family: 'Bulgarian Garmond Italic';
+  src: url('#{$custom-font-path}bulgarian-garmond-italic.eot');
+  src: url('#{$custom-font-path}bulgarian-garmond-italic.eot?#iefix') format('embedded-opentype'),
+       url('#{$custom-font-path}bulgarian-garmond-italic.woff') format('woff'),
+       url('#{$custom-font-path}bulgarian-garmond-italic.ttf') format('truetype'),
+       url('#{$custom-font-path}bulgarian-garmond-italic.svg') format('svg');
+}
+
+@font-face {
+  font-family: 'Futura Normal';
+  src: url('#{$custom-font-path}futura-normal.otf');
+  src: url('#{$custom-font-path}futura-normal.otf?#iefix') format('embedded-opentype'),
+       url('#{$custom-font-path}futura-normal.woff') format('woff'),
+       url('#{$custom-font-path}futura-normal.ttf') format('truetype'),
+       url('#{$custom-font-path}futura-normal.svg') format('svg');
+}
+
+@font-face {
+  font-family: 'Garmond Regular';
+  src: url('#{$custom-font-path}garmond-reg.otf');
+  src: url('#{$custom-font-path}garmond-reg.otf?#iefix') format('embedded-opentype'),
+       url('#{$custom-font-path}garmond-reg.woff') format('woff'),
+       url('#{$custom-font-path}garmond-reg.ttf') format('truetype'),
+       url('#{$custom-font-path}garmond-reg.svg') format('svg');
+}
+
 @font-face {
   font-family: 'Avant Garde';
   src: url('#{$custom-font-path}itcavantgardestd-bk-webfont.eot');
@@ -12,10 +40,27 @@ $custom-font-path: "fonts/";
        url('#{$custom-font-path}itcavantgardestd-bk-webfont.svg') format('svg');
 }
 
+@font-face {
+  font-family: 'EBGaramond';
+  src: url('#{$custom-font-path}EBGaramond.eot');
+  src: url('#{$custom-font-path}EBGaramond.eot?#iefix') format('embedded-opentype'),
+       url('#{$custom-font-path}EBGaramond.woff') format('woff'),
+       url('#{$custom-font-path}EBGaramond.ttf') format('truetype'),
+       url('#{$custom-font-path}EBGaramond.svg') format('svg');
+}
+
 $brand-primary:         #d83552;
 $navbar-default-bg: white;
 
-$font-family-sans-serif:  'Avant Garde', "Univers", "Helvetica Neue", Helvetica, Arial, sans-serif;
+
+$font-family-avant-garde:  'Avant Garde', "Univers", "Helvetica Neue", Helvetica, Arial, sans-serif;
+$font-family-futura:  'Futura Normal', "Univers", "Helvetica Neue", Helvetica, Arial, sans-serif;
+$font-family-garmond:  'Garmond Regular', "Univers", "Helvetica Neue", Helvetica, Arial, sans-serif;
+$font-family-bulgarian-garmond-italic: 'Bulgarian Garmond Italic', Georgia, "Times New Roman", Times, serif;
+$font-family-ebgaramond: 'EBGaramond', Georgia, "Times New Roman", Times, serif;
+
+
+$font-family-sans-serif:  $font-family-futura;
 $font-family-serif:       "Century School Book", Georgia, "Times New Roman", Times, serif;
 
 // Carousel
@@ -34,6 +79,22 @@ $carousel-indicator-border-color:             #999;
 $carousel-caption-color:                      #fff;
 
 @import 'sass-bootstrap/lib/bootstrap';
+
+.futura {
+  font-family: $font-family-futura;
+}
+
+.garmond {
+  font-family: $font-family-garmond;
+}
+
+.bulgarian-garmond-italic {
+  font-family: $font-family-bulgarian-garmond-italic;
+}
+
+.ebgaramond {
+  font-family: $font-family-ebgaramond;
+}
 
 .navbar {
   border-color: #fff;
