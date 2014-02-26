@@ -418,7 +418,7 @@ h1.carousel {
 
 /* Space out content a bit */
 body {
-    padding-top: 150px;
+    padding-top: 0;
     padding-bottom: 70px;
 }
 
@@ -532,12 +532,21 @@ background-color: #FFF;
 .no-top-margin {
     margin-top: 0;
 }
+
+.small-bottom-margin {
+  margin-bottom: 4px;
+}
+
 .add-bottom-padding {
     padding-bottom: 20px;
 }
 
 .add-top-padding {
     padding-top: 20px;
+}
+
+.no-bottom-padding {
+  padding-bottom: 0;
 }
 
 // .navbar-fixed-top {

@@ -11,12 +11,13 @@ level: ../
 </div>
 <div class="row">
   <div class="col-xs-12">
-    <img class="img-responsive" src="<%= @item[:level] %>images/Makeup-Brush.jpg" alt="Makeup Brush on White Background by Trostle" />
+    <!-- <img class="img-responsive" src="<%= @item[:level] %>images/Makeup-Brush.jpg" alt="Makeup Brush on White Background by Trostle" /> -->
   </div>
 </div>
 <div class="row">
   <div class="col-xs-12">
-    <h3>Thank you so much for visiting. Get in touch today.</h3>
+    <h3 class="small-bottom-margin">Thank you so much for visiting.</h3>
+    <h3 class="no-top-margin">Get in touch today.</h3>
   </div>
 </div>
 <div class="row">
@@ -26,6 +27,7 @@ level: ../
       <span class="email">
         <a href="mailto:<%= @site.config[:email] %>?subject=Hello There"><%= @site.config[:email] %></a>
       </span>
+      <br />
       <span class="tel"><a href="tel:<%= @site.config[:phonelink] %>"><%= @site.config[:phone] %></a></span>
       <br />
       <span class="adr">
