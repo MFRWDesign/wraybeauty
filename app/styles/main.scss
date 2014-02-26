@@ -379,14 +379,14 @@ h1.carousel {
 }
 
 .photograph {
-    padding: 7px;
+    padding: 10px;
     border: 2px solid darken($gray-lighter, 5%);
     box-shadow: 3px 3px 7px $gray;
     @include rotate(-5deg);
 }
 
 .photograph2 {
-    padding: 7px;
+    padding: 10px;
     background: #FFF;
     border: 2px solid darken($gray-lighter, 5%);
     // box-shadow: 3px 3px 3px $gray-light, -3px 3px 3px $gray-light, 3px -3px 3px $gray-light, -3px -3px 3px $gray-light;
@@ -401,7 +401,7 @@ h1.carousel {
 }
 
 .photograph3 {
-    padding: 7px;
+    padding: 10px;
     background: #FFF;
     border: 2px solid darken($gray-lighter, 5%);
     // box-shadow: 3px 3px 3px $gray-light, -3px 3px 3px $gray-light, 3px -3px 3px $gray-light, -3px -3px 3px $gray-light;
@@ -447,7 +447,7 @@ body {
 .footer {
     padding-top: 19px;
     color: #777;
-    border-top: 1px solid #e5e5e5;
+    border-top: 1px solid $wray-gray;
 }
 
 .container-narrow > hr {
